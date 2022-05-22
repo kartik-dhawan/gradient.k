@@ -1,0 +1,43 @@
+[
+    {
+        "cid": 0,
+        "colorType": "All",
+        "colorCode": "#"
+    },
+    {
+        "cid": 1,
+        "colorType": "Red"
+    },
+    {
+        "cid": 2,
+        "colorType": "Yellow"
+    },
+    {
+        "cid": 3,
+        "colorType": "Green"
+    },
+    {
+        "cid": 4,
+        "colorType": "Pink"
+    },
+    {
+        "cid": 5,
+        "colorType": "Blue"
+    },
+    {
+        "cid": 6,
+        "colorType": "White"
+    },
+    {
+        "cid": 7,
+        "colorType": "Black"
+    },
+    {
+        "cid": 8,
+        "colorType": "Grey"
+    },
+    {
+        "cid": 9,
+        "colorType": "Orange"
+    }
+]

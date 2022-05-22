@@ -1,0 +1,56 @@
+$card-size : (
+    "xsmall": 17,
+    "small": 22,
+    "medium": 28,
+    "large": 33,
+    "xlarge": 33
+);
+
+@mixin grid-rows{
+    display: grid;
+    grid-auto-rows: 10px;
+}
+
+@mixin buttons{
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@each $key, $val in $card-size{
+    .#{$key}-card{
+        grid-row-end: span $val;
+        margin: 2px 8px;
+        @include grid-rows;
+    }
+    .#{$key}-gradient{
+        grid-row-end: span ($val - 4);
+        // background-color: rgb(48, 48, 48);
+        border-radius: 10px;
+    }
+}
+
+.gradient-card-container{
+    @include grid-rows;
+    grid-template-columns: repeat(auto-fill, 220px);
+    justify-content: center;
+    padding-top: 30vh;
+    background-color: black;
+    .card-details{
+        padding: 4px 2px 0px 6px;
+        font-size: 14px;
+        height: max-content;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        letter-spacing: 1.3px;
+        font-weight: 300;
+        .details-button{
+            @include buttons;
+            color: white;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+    }
+}

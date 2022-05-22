@@ -1,0 +1,1914 @@
+[
+
+  {
+    "name": "Neptune",
+    "colors": ["091E3C", "000000"],
+    "filter": ["Blue", "Black"]
+  },
+  {
+    "name": "Purple",
+    "colors": ["9400D3", "4B0082"],
+    "filter": ["purple", "White"]
+  },
+  {
+    "name": "Farhan",
+    "colors": ["c84e89", "dc9da7"],
+    "filter": ["purple", "Pink"]
+  },
+  {
+    "name": "Ibtesam",
+    "colors": ["00F5A0", "00D9F5"],
+    "filter": ["Green", "Blue"]
+  },
+  {
+    "name": "The Sky And The Sea",
+    "colors": ["F7941E", "004E8F"],
+    "filter": ["Orange", "Blue"]
+  },
+  {
+    "name": "Purple Dream",
+    "colors": ["b18ebd", "da6cff"],
+    "filter": ["purple", "Pink"]
+  },
+  {
+    "name": "Blu",
+    "colors": ["00416A", "E4E5E6"],
+    "filter": ["Blue", "White"]
+  },
+  {
+    "name": "Summer Breeze",
+    "colors": ["fbed96", "abecd6"],
+    "filter": ["Yellow", "Green"]
+  },
+  {
+    "name": "Ver",
+    "colors": ["FFE000", "799F0C"],
+    "filter": ["Blue", "Yellow"]
+  },
+  {
+    "name": "Ver Black",
+    "colors": ["F7F8F8", "ACBB78"],
+    "filter": ["White", "Yellow"]
+  },
+  {
+    "name": "Combi",
+    "colors": ["00416A", "799F0C", "FFE000"],
+    "filter": ["Blue", "Yellow"]
+  },
+  {
+    "name": "Anwar",
+    "colors": ["334d50", "cbcaa5"],
+    "filter": ["Black", "White"]
+  },
+  {
+    "name": "Bluelagoon",
+    "colors": ["0052D4", "4364F7", "6FB1FC"],
+    "filter": ["Blue", "Blue"]
+  },
+  {
+    "name": "From Ice To Fire",
+    "colors": ["72C6EF", "004E8F"],
+    "filter": ["White", "Blue"]
+  },
+  {
+    "name": "Omolon",
+    "colors": ["091E3A", "2F80ED", "2D9EE0"],
+    "filter": ["Blue", "White"]
+  },
+  {
+    "name": "Lunada",
+    "colors": ["5433FF", "20BDFF", "A5FECB"],
+    "filter": ["Blue", "Green"]
+  },
+  {
+    "name": "Reaqua",
+    "colors": ["799F0C", "ACBB78"],
+    "filter": ["Yellow", "Black"]
+  },
+  {
+    "name": "Mango",
+    "colors": ["ffe259", "ffa751"],
+    "filter": ["Yellow", "Orange"]
+  },
+  {
+    "name": "Bupe",
+    "colors": ["00416A", "E4E5E6"],
+    "filter": ["Blue", "White"]
+  },
+  {
+    "name": "Rea",
+    "colors": ["FFE000", "799F0C"],
+    "filter": ["Yellow", "Green"]
+  },
+  {
+    "name": "Windy",
+    "colors": ["acb6e5", "86fde8"],
+    "filter": ["purple", "Green"]
+  },
+  {
+    "name": "Royal Blue",
+    "colors": ["536976", "292E49"],
+    "filter": ["Black", "Grey"]
+  },
+  {
+    "name": "Royal Blue + Petrol",
+    "colors": ["BBD2C5", "536976", "292E49"],
+    "filter": ["White", "Black"]
+  },
+  {
+    "name": "Copper",
+    "colors": ["B79891", "94716B"],
+    "filter": ["Red", "Grey"]
+  },
+  {
+    "name": "Anamnisar",
+    "colors": ["9796f0", "fbc7d4"],
+    "filter": ["Pink", "purple"]
+  },
+  {
+    "name": "Petrol",
+    "colors": ["BBD2C5", "536976"],
+    "filter": ["White", "Grey"]
+  },
+  {
+    "name": "Sky",
+    "colors": ["076585", "fff"],
+    "filter": ["Blue", "White"]
+  },
+  {
+    "name": "Sel",
+    "colors": ["00467F", "A5CC82"],
+    "filter": ["Blue", "Green"]
+  },
+  {
+    "name": "Afternoon",
+    "colors": ["000C40", "607D8B"],
+    "filter": ["Blue", "Grey"]
+  },
+  {
+    "name": "Skyline",
+    "colors": ["1488CC", "2B32B2"],
+    "filter": ["White", "Blue"]
+  },
+  {
+    "name": "DIMIGO",
+    "colors": ["ec008c", "fc6767"],
+    "filter": ["Pink", "Orange"]
+  },
+  {
+    "name": "Purple Love",
+    "colors": ["cc2b5e", "753a88"],
+    "filter": ["purple", "Pink"]
+  },
+  {
+    "name": "Radioactive Heat",
+    "colors": ["F7941E", "72C6EF", "00A651"],
+    "filter": ["Orange", "Green"]
+  },
+  {
+    "name": "Sexy Blue",
+    "colors": ["2193b0", "6dd5ed"],
+    "filter": ["Green", "Blue"]
+  },
+  {
+    "name": "Blooker20",
+    "colors": ["e65c00", "F9D423"],
+    "filter": ["Orange", "Yellow"]
+  },
+  {
+    "name": "Sea Blue",
+    "colors": ["2b5876", "4e4376"],
+    "filter": ["Grey", "Blue"]
+  },
+  {
+    "name": "Nimvelo",
+    "colors": ["314755", "26a0da"],
+    "filter": ["Black", "Blue"]
+  },
+  {
+    "name": "Hazel",
+    "colors": ["77A1D3", "79CBCA", "E684AE"],
+    "filter": ["Pink", "Green"]
+  },
+  {
+    "name": "Noon to Dusk",
+    "colors": ["ff6e7f", "bfe9ff"],
+    "filter": ["Pink", "Blue"]
+  },
+  {
+    "name": "YouTube",
+    "colors": ["e52d27", "b31217"],
+    "filter": ["Red", "Black"]
+  },
+  {
+    "name": "Cool Brown",
+    "colors": ["603813", "b29f94"],
+    "filter": ["Red", "White"]
+  },
+  {
+    "name": "Harmonic Energy",
+    "colors": ["16A085", "F4D03F"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Playing with Reds",
+    "colors": ["D31027", "EA384D"],
+    "filter": ["Red", "Pink"]
+  },
+  {
+    "name": "Sunny Days",
+    "colors": ["EDE574", "E1F5C4"],
+    "filter": ["Yellow", "White"]
+  },
+  {
+    "name": "Blue & Orange",
+    "colors": ["FD8112", "0085CA"],
+    "filter": ["Blue", "Orange"]
+  },
+  {
+    "name": "Green Beach",
+    "colors": ["02AAB0", "00CDAC"],
+    "filter": ["Green", "Blue"]
+  },
+  {
+    "name": "Intuitive Purple",
+    "colors": ["DA22FF", "9733EE"],
+    "filter": ["purple", "Pink"]
+  },
+  {
+    "name": "Emerald Water",
+    "colors": ["348F50", "56B4D3"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Lemon Twist",
+    "colors": ["3CA55C", "B5AC49"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Monte Carlo",
+    "colors": ["CC95C0", "DBD4B4", "7AA1D2"],
+    "filter": ["Pink", "Blue"]
+  },
+  {
+    "name": "Horizon",
+    "colors": ["003973", "E5E5BE"],
+    "filter": ["Blue", "Yellow"]
+  },
+  {
+    "name": "Rose Water",
+    "colors": ["E55D87", "5FC3E4"],
+    "filter": ["Pink", "Blue"]
+  },
+  {
+    "name": "Frozen",
+    "colors": ["403B4A", "E7E9BB"],
+    "filter": ["Black", "Yellow"]
+  },
+  {
+    "name": "Mango Pulp",
+    "colors": ["F09819", "EDDE5D"],
+    "filter": ["Orange", "Yellow"]
+  },
+  {
+    "name": "Bloody Mary",
+    "colors": ["FF512F", "DD2476"],
+    "filter": ["Orange", "Pink"]
+  },
+  {
+    "name": "Aubergine",
+    "colors": ["AA076B", "61045F"],
+    "filter": ["purple", "Blue"]
+  },
+  {
+    "name": "Aqua Marine",
+    "colors": ["1A2980", "26D0CE"],
+    "filter": ["Blue", "Green"]
+  },
+  {
+    "name": "Sunrise",
+    "colors": ["FF512F", "F09819"],
+    "filter": ["Orange", "Red"]
+  },
+  {
+    "name": "Purple Paradise",
+    "colors": ["1D2B64", "F8CDDA"],
+    "filter": ["Green", "Pink"]
+  },
+  {
+    "name": "Stripe",
+    "colors": ["1FA2FF", "12D8FA", "A6FFCB"],
+    "filter": ["Blue", "Green"]
+  },
+  {
+    "name": "Sea Weed",
+    "colors": ["4CB8C4", "3CD3AD"],
+    "filter": ["Green", "Grey"]
+  },
+  {
+    "name": "Pinky",
+    "colors": ["DD5E89", "F7BB97"],
+    "filter": ["Pink", "Yellow"]
+  },
+  {
+    "name": "Cherry",
+    "colors": ["EB3349", "F45C43"],
+    "filter": ["Red", "Orange"]
+  },
+  {
+    "name": "Mojito",
+    "colors": ["1D976C", "93F9B9"],
+    "filter": ["Green", "White"]
+  },
+  {
+    "name": "Juicy Orange",
+    "colors": ["FF8008", "FFC837"],
+    "filter": ["Orange", "Yellow"]
+  },
+  {
+    "name": "Mirage",
+    "colors": ["16222A", "3A6073"],
+    "filter": ["Black", "Grey"]
+  },
+  {
+    "name": "Steel Gray",
+    "colors": ["1F1C2C", "928DAB"],
+    "filter": ["Grey", "White"]
+  },
+  {
+    "name": "Kashmir",
+    "colors": ["614385", "516395"],
+    "filter": ["Grey", "purple"]
+  },
+  {
+    "name": "Electric Violet",
+    "colors": ["4776E6", "8E54E9"],
+    "filter": ["Blue", "purple"]
+  },
+  {
+    "name": "Venice Blue",
+    "colors": ["085078", "85D8CE"],
+    "filter": ["Green", "White"]
+  },
+  {
+    "name": "Bora Bora",
+    "colors": ["2BC0E4", "EAECC6"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Moss",
+    "colors": ["134E5E", "71B280"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Shroom Haze",
+    "colors": ["5C258D", "4389A2"],
+    "filter": ["purple", "Blue"]
+  },
+  {
+    "name": "Mystic",
+    "colors": ["757F9A", "D7DDE8"],
+    "filter": ["Grey", "White"]
+  },
+  {
+    "name": "Midnight City",
+    "colors": ["232526", "414345"],
+    "filter": ["Grey", "Black"]
+  },
+  {
+    "name": "Sea Blizz",
+    "colors": ["1CD8D2", "93EDC7"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Opa",
+    "colors": ["3D7EAA", "FFE47A"],
+    "filter": ["Blue", "Yellow"]
+  },
+  {
+    "name": "Titanium",
+    "colors": ["283048", "859398"],
+    "filter": ["Black", "Grey"]
+  },
+  {
+    "name": "Mantle",
+    "colors": ["24C6DC", "514A9D"],
+    "filter": ["Blue", "Green"]
+  },
+  {
+    "name": "Dracula",
+    "colors": ["DC2424", "4A569D"],
+    "filter": ["Red", "Blue"]
+  },
+  {
+    "name": "Peach",
+    "colors": ["ED4264", "FFEDBC"],
+    "filter": ["Red", "Yellow"]
+  },
+  {
+    "name": "Moonrise",
+    "colors": ["DAE2F8", "D6A4A4"],
+    "filter": ["White", "Pink"]
+  },
+  {
+    "name": "Clouds",
+    "colors": ["ECE9E6", "FFFFFF"],
+    "filter": ["White", "Pink"]
+  },
+  {
+    "name": "Stellar",
+    "colors": ["7474BF", "348AC7"],
+    "filter": ["Blue", "purple"]
+  },
+  {
+    "name": "Bourbon",
+    "colors": ["EC6F66", "F3A183"],
+    "filter": ["Orange", "Yellow"]
+  },
+  {
+    "name": "Calm Darya",
+    "colors": ["5f2c82", "49a09d"],
+    "filter": ["purple", "Green"]
+  },
+  {
+    "name": "Influenza",
+    "colors": ["C04848", "480048"],
+    "filter": ["purple", "Orange"]
+  },
+  {
+    "name": "Shrimpy",
+    "colors": ["e43a15", "e65245"],
+    "filter": ["Red", "Orange"]
+  },
+  {
+    "name": "Army",
+    "colors": ["414d0b", "727a17"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Miaka",
+    "colors": ["FC354C", "0ABFBC"],
+    "filter": ["Red", "Green"]
+  },
+  {
+    "name": "Pinot Noir",
+    "colors": ["4b6cb7", "182848"],
+    "filter": ["Blue", "Black"]
+  },
+  {
+    "name": "Day Tripper",
+    "colors": ["f857a6", "ff5858"],
+    "filter": ["Pink", "Orange"]
+  },
+  {
+    "name": "Namn",
+    "colors": ["a73737", "7a2828"],
+    "filter": ["Red", "Black"]
+  },
+  {
+    "name": "Blurry Beach",
+    "colors": ["d53369", "cbad6d"],
+    "filter": ["Pink", "Yellow"]
+  },
+  {
+    "name": "Vasily",
+    "colors": ["e9d362", "333333"],
+    "filter": ["Yellow", "Black"]
+  },
+  {
+    "name": "A Lost Memory",
+    "colors": ["DE6262", "FFB88C"],
+    "filter": ["Orange", "Yellow"]
+  },
+  {
+    "name": "Petrichor",
+    "colors": ["666600", "999966"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Jonquil",
+    "colors": ["FFEEEE", "DDEFBB"],
+    "filter": ["White", "Yellow"]
+  },
+  {
+    "name": "Sirius Tamed",
+    "colors": ["EFEFBB", "D4D3DD"],
+    "filter": ["Yellow", "purple"]
+  },
+  {
+    "name": "Kyoto",
+    "colors": ["c21500", "ffc500"],
+    "filter": ["Orange", "Yellow"]
+  },
+  {
+    "name": "Misty Meadow",
+    "colors": ["215f00", "e4e4d9"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Aqualicious",
+    "colors": ["50C9C3", "96DEDA"],
+    "filter": ["Blue", "White"]
+  },
+  {
+    "name": "Moor",
+    "colors": ["616161", "9bc5c3"],
+    "filter": ["Grey", "White"]
+  },
+  {
+    "name": "Almost",
+    "colors": ["ddd6f3", "faaca8"],
+    "filter": ["Pink", "purple"]
+  },
+  {
+    "name": "Forever Lost",
+    "colors": ["5D4157", "A8CABA"],
+    "filter": ["Grey", "White"]
+  },
+  {
+    "name": "Winter",
+    "colors": ["E6DADA", "274046"],
+    "filter": ["White", "Grey"]
+  },
+  {
+    "name": "Nelson",
+    "colors": ["f2709c", "ff9472"],
+    "filter": ["Pink", "Orange"]
+  },
+  {
+    "name": "Autumn",
+    "colors": ["DAD299", "B0DAB9"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Candy",
+    "colors": ["D3959B", "BFE6BA"],
+    "filter": ["Pink", "Green"]
+  },
+  {
+    "name": "Reef",
+    "colors": ["00d2ff", "3a7bd5"],
+    "filter": ["Blue", "White"]
+  },
+  {
+    "name": "The Strain",
+    "colors": ["870000", "190A05"],
+    "filter": ["Red", "Black"]
+  },
+  {
+    "name": "Dirty Fog",
+    "colors": ["B993D6", "8CA6DB"],
+    "filter": ["Pink", "purple"]
+  },
+  {
+    "name": "Earthly",
+    "colors": ["649173", "DBD5A4"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Virgin",
+    "colors": ["C9FFBF", "FFAFBD"],
+    "filter": ["Green", "Pink"]
+  },
+  {
+    "name": "Ash",
+    "colors": ["606c88", "3f4c6b"],
+    "filter": ["Grey", "Black"]
+  },
+  {
+    "name": "Cherryblossoms",
+    "colors": ["FBD3E9", "BB377D"],
+    "filter": ["Pink", "White"]
+  },
+  {
+    "name": "Parklife",
+    "colors": ["ADD100", "7B920A"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Dance To Forget",
+    "colors": ["FF4E50", "F9D423"],
+    "filter": ["Orange", "Yellow"]
+  },
+  {
+    "name": "Starfall",
+    "colors": ["F0C27B", "4B1248"],
+    "filter": ["Yellow", "purple"]
+  },
+  {
+    "name": "Red Mist",
+    "colors": ["000000", "e74c3c"],
+    "filter": ["Red", "Black"]
+  },
+  {
+    "name": "Teal Love",
+    "colors": ["AAFFA9", "11FFBD"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Neon Life",
+    "colors": ["B3FFAB", "12FFF7"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Man of Steel",
+    "colors": ["780206", "061161"],
+    "filter": ["Red", "Blue"]
+  },
+  {
+    "name": "Amethyst",
+    "colors": ["9D50BB", "6E48AA"],
+    "filter": ["purple", "Pink"]
+  },
+  {
+    "name": "Cheer Up Emo Kid",
+    "colors": ["556270", "FF6B6B"],
+    "filter": ["Grey", "Pink"]
+  },
+  {
+    "name": "Shore",
+    "colors": ["70e1f5", "ffd194"],
+    "filter": ["Green", "Orange"]
+  },
+  {
+    "name": "Facebook Messenger",
+    "colors": ["00c6ff", "0072ff"],
+    "filter": ["Blue", "White"]
+  },
+  {
+    "name": "SoundCloud",
+    "colors": ["fe8c00", "f83600"],
+    "filter": ["Red", "Orange"]
+  },
+  {
+    "name": "Behongo",
+    "colors": ["52c234", "061700"],
+    "filter": ["Green", "Black"]
+  },
+  {
+    "name": "ServQuick",
+    "colors": ["485563", "29323c"],
+    "filter": ["Grey", "Black"]
+  },
+  {
+    "name": "Friday",
+    "colors": ["83a4d4", "b6fbff"],
+    "filter": ["White", "Blue"]
+  },
+  {
+    "name": "Martini",
+    "colors": ["FDFC47", "24FE41"],
+    "filter": ["Yellow", "Green"]
+  },
+  {
+    "name": "Metallic Toad",
+    "colors": ["abbaab", "ffffff"],
+    "filter": ["White", "Grey"]
+  },
+  {
+    "name": "Between The Clouds",
+    "colors": ["73C8A9", "373B44"],
+    "filter": ["Green", "Grey"]
+  },
+  {
+    "name": "Crazy Orange I",
+    "colors": ["D38312", "A83279"],
+    "filter": ["Orange", "purple"]
+  },
+  {
+    "name": "Hersheys",
+    "colors": ["1e130c", "9a8478"],
+    "filter": ["Black", "Grey"]
+  },
+  {
+    "name": "Talking To Mice Elf",
+    "colors": ["948E99", "2E1437"],
+    "filter": ["Grey", "Black"]
+  },
+  {
+    "name": "Purple Bliss",
+    "colors": ["360033", "0b8793"],
+    "filter": ["purple", "Green"]
+  },
+  {
+    "name": "PRedawn",
+    "colors": ["FFA17F", "00223E"],
+    "filter": ["Pink", "Blue"]
+  },
+  {
+    "name": "Endless River",
+    "colors": ["43cea2", "185a9d"],
+    "filter": ["Green", "Blue"]
+  },
+  {
+    "name": "Pastel Orange at the Sun",
+    "colors": ["ffb347", "ffcc33"],
+    "filter": ["Orange", "Yellow"]
+  },
+  {
+    "name": "Twitch",
+    "colors": ["6441A5", "2a0845"],
+    "filter": ["purple", "Black"]
+  },
+  {
+    "name": "Atlas",
+    "colors": ["FEAC5E", "C779D0", "4BC0C8"],
+    "filter": ["Pink", "purple"]
+  },
+  {
+    "name": "Instagram",
+    "colors": ["833ab4", "fd1d1d", "fcb045"],
+    "filter": ["purple", "Orange"]
+  },
+  {
+    "name": "Flickr",
+    "colors": ["ff0084", "33001b"],
+    "filter": ["Red", "Black"]
+  },
+  {
+    "name": "Vine",
+    "colors": ["00bf8f", "001510"],
+    "filter": ["Green", "Black"]
+  },
+  {
+    "name": "Turquoise flow",
+    "colors": ["136a8a", "267871"],
+    "filter": ["Green", "Blue"]
+  },
+  {
+    "name": "Portrait",
+    "colors": ["8e9eab", "eef2f3"],
+    "filter": ["White", "Grey"]
+  },
+  {
+    "name": "Virgin America",
+    "colors": ["7b4397", "dc2430"],
+    "filter": ["purple", "Red"]
+  },
+  {
+    "name": "Koko Caramel",
+    "colors": ["D1913C", "FFD194"],
+    "filter": ["Yellow", "Orange"]
+  },
+  {
+    "name": "Fresh Turboscent",
+    "colors": ["F1F2B5", "135058"],
+    "filter": ["Yellow", "Green"]
+  },
+  {
+    "name": "Green to dark",
+    "colors": ["6A9113", "141517"],
+    "filter": ["Green", "Black"]
+  },
+  {
+    "name": "Ukraine",
+    "colors": ["004FF9", "FFF94C"],
+    "filter": ["Blue", "Yellow"]
+  },
+  {
+    "name": "Curiosity Blue",
+    "colors": ["525252", "3d72b4"],
+    "filter": ["Grey", "Blue"]
+  },
+  {
+    "name": "Dark Knight",
+    "colors": ["BA8B02", "181818"],
+    "filter": ["Yellow", "Black"]
+  },
+  {
+    "name": "Piglet",
+    "colors": ["ee9ca7", "ffdde1"],
+    "filter": ["Pink", "White"]
+  },
+  {
+    "name": "Lizard",
+    "colors": ["304352", "d7d2cc"],
+    "filter": ["Grey", "White"]
+  },
+  {
+    "name": "Sage Persuasion",
+    "colors": ["CCCCB2", "757519"],
+    "filter": ["White", "Yellow"]
+  },
+  {
+    "name": "Between Night and Day",
+    "colors": ["2c3e50", "3498db"],
+    "filter": ["Black", "Blue"]
+  },
+  {
+    "name": "Timber",
+    "colors": ["fc00ff", "00dbde"],
+    "filter": ["Pink", "Blue"]
+  },
+  {
+    "name": "Passion",
+    "colors": ["e53935", "e35d5b"],
+    "filter": ["Red", "Pink"]
+  },
+  {
+    "name": "Clear Sky",
+    "colors": ["005C97", "363795"],
+    "filter": ["Blue", "Green"]
+  },
+  {
+    "name": "Master Card",
+    "colors": ["f46b45", "eea849"],
+    "filter": ["Orange", "Yellow"]
+  },
+  {
+    "name": "Back To Earth",
+    "colors": ["00C9FF", "92FE9D"],
+    "filter": ["Blue", "Green"]
+  },
+  {
+    "name": "Deep Purple",
+    "colors": ["673AB7", "512DA8"],
+    "filter": ["purple", "purple"]
+  },
+  {
+    "name": "Little Leaf",
+    "colors": ["76b852", "8DC26F"],
+    "filter": ["Green", "Green"]
+  },
+  {
+    "name": "Netflix",
+    "colors": ["8E0E00", "1F1C18"],
+    "filter": ["Red", "Black"]
+  },
+  {
+    "name": "Light Orange",
+    "colors": ["FFB75E", "ED8F03"],
+    "filter": ["Orange", "Orange"]
+  },
+  {
+    "name": "Green and Blue",
+    "colors": ["c2e59c", "64b3f4"],
+    "filter": ["Green", "Blue"]
+  },
+  {
+    "name": "Poncho",
+    "colors": ["403A3E", "BE5869"],
+    "filter": ["Black", "Pink"]
+  },
+  {
+    "name": "Back to the Future",
+    "colors": ["C02425", "F0CB35"],
+    "filter": ["Orange", "Yellow"]
+  },
+  {
+    "name": "Blush",
+    "colors": ["B24592", "F15F79"],
+    "filter": ["purple", "Pink"]
+  },
+  {
+    "name": "Inbox",
+    "colors": ["457fca", "5691c8"],
+    "filter": ["Blue", "Blue"]
+  },
+  {
+    "name": "Purplin",
+    "colors": ["6a3093", "a044ff"],
+    "filter": ["purple", "purple"]
+  },
+  {
+    "name": "Pale Wood",
+    "colors": ["eacda3", "d6ae7b"],
+    "filter": ["White", "Yellow"]
+  },
+  {
+    "name": "Haikus",
+    "colors": ["fd746c", "ff9068"],
+    "filter": ["Pink", "Orange"]
+  },
+  {
+    "name": "Pizelex",
+    "colors": ["114357", "F29492"],
+    "filter": ["Blue", "Pink"]
+  },
+  {
+    "name": "Joomla",
+    "colors": ["1e3c72", "2a5298"],
+    "filter": ["Blue", "Blue"]
+  },
+  {
+    "name": "Christmas",
+    "colors": ["2F7336", "AA3A38"],
+    "filter": ["Green", "Red"]
+  },
+  {
+    "name": "Minnesota Vikings",
+    "colors": ["5614B0", "DBD65C"],
+    "filter": ["purple", "Yellow"]
+  },
+  {
+    "name": "Miami Dolphins",
+    "colors": ["4DA0B0", "D39D38"],
+    "filter": ["Green", "Orange"]
+  },
+  {
+    "name": "Forest",
+    "colors": ["5A3F37", "2C7744"],
+    "filter": ["Red", "Green"]
+  },
+  {
+    "name": "Nighthawk",
+    "colors": ["2980b9", "2c3e50"],
+    "filter": ["Blue", "Black"]
+  },
+  {
+    "name": "Superman",
+    "colors": ["0099F7", "F11712"],
+    "filter": ["Blue", "Red"]
+  },
+  {
+    "name": "Suzy",
+    "colors": ["834d9b", "d04ed6"],
+    "filter": ["purple", "purple"]
+  },
+  {
+    "name": "Dark Skies",
+    "colors": ["4B79A1", "283E51"],
+    "filter": ["Blue", "Grey"]
+  },
+  {
+    "name": "Deep Space",
+    "colors": ["000000", "434343"],
+    "filter": ["Black", "Grey"]
+  },
+  {
+    "name": "Decent",
+    "colors": ["4CA1AF", "C4E0E5"],
+    "filter": ["Blue", "White"]
+  },
+  {
+    "name": "Colors Of Sky",
+    "colors": ["E0EAFC", "CFDEF3"],
+    "filter": ["White", "Grey"]
+  },
+  {
+    "name": "Purple White",
+    "colors": ["BA5370", "F4E2D8"],
+    "filter": ["Pink", "White"]
+  },
+  {
+    "name": "Ali",
+    "colors": ["ff4b1f", "1fddff"],
+    "filter": ["Orange", "Blue"]
+  },
+  {
+    "name": "Alihossein",
+    "colors": ["f7ff00", "db36a4"],
+    "filter": ["Yellow", "Pink"]
+  },
+  {
+    "name": "Shahabi",
+    "colors": ["a80077", "66ff00"],
+    "filter": ["Pink", "Green"]
+  },
+  {
+    "name": "Red Ocean",
+    "colors": ["1D4350", "A43931"],
+    "filter": ["Black", "Red"]
+  },
+  {
+    "name": "Tranquil",
+    "colors": ["EECDA3", "EF629F"],
+    "filter": ["Yellow", "Pink"]
+  },
+  {
+    "name": "Transfile",
+    "colors": ["16BFFD", "CB3066"],
+    "filter": ["Blue", "Pink"]
+  },
+
+  {
+    "name": "Sylvia",
+    "colors": ["ff4b1f", "ff9068"],
+    "filter": ["Orange", "Orange"]
+  },
+  {
+    "name": "Sweet Morning",
+    "colors": ["FF5F6D", "FFC371"],
+    "filter": ["Orange", "Yellow"]
+  },
+  {
+    "name": "Politics",
+    "colors": ["2196f3", "f44336"],
+    "filter": ["Blue", "Red"]
+  },
+  {
+    "name": "Bright Vault",
+    "colors": ["00d2ff", "928DAB"],
+    "filter": ["Blue", "Grey"]
+  },
+  {
+    "name": "Solid Vault",
+    "colors": ["3a7bd5", "3a6073"],
+    "filter": ["Blue", "Grey"]
+  },
+  {
+    "name": "Sunset",
+    "colors": ["0B486B", "F56217"],
+    "filter": ["Blue", "Orange"]
+  },
+  {
+    "name": "Grapefruit Sunset",
+    "colors": ["e96443", "904e95"],
+    "filter": ["Orange", "purple"]
+  },
+  {
+    "name": "Deep Sea Space",
+    "colors": ["2C3E50", "4CA1AF"],
+    "filter": ["Black", "Blue"]
+  },
+  {
+    "name": "Dusk",
+    "colors": ["2C3E50", "FD746C"],
+    "filter": ["Black", "Pink"]
+  },
+  {
+    "name": "Minimal Red",
+    "colors": ["F00000", "DC281E"],
+    "filter": ["Red", "Red"]
+  },
+  {
+    "name": "Royal",
+    "colors": ["141E30", "243B55"],
+    "filter": ["Black", "Grey"]
+  },
+  {
+    "name": "Mauve",
+    "colors": ["42275a", "734b6d"],
+    "filter": ["purple", "Black"]
+  },
+  {
+    "name": "Frost",
+    "colors": ["000428", "004e92"],
+    "filter": ["Blue", "Black"]
+  },
+  {
+    "name": "Lush",
+    "colors": ["56ab2f", "a8e063"],
+    "filter": ["Green", "Green"]
+  },
+  {
+    "name": "Firewatch",
+    "colors": ["cb2d3e", "ef473a"],
+    "filter": ["Red", "Orange"]
+  },
+  {
+    "name": "Sherbert",
+    "colors": ["f79d00", "64f38c"],
+    "filter": ["Green", "Orange"]
+  },
+  {
+    "name": "Blood Red",
+    "colors": ["f85032", "e73827"],
+    "filter": ["Red", "Orange"]
+  },
+  {
+    "name": "Sun on the Horizon",
+    "colors": ["fceabb", "f8b500"],
+    "filter": ["Orange", "Yellow"]
+  },
+  {
+    "name": "IIIT Delhi",
+    "colors": ["808080", "3fada8"],
+    "filter": ["Grey", "Green"]
+  },
+  {
+    "name": "Jupiter",
+    "colors": ["ffd89b", "19547b"],
+    "filter": ["Yellow", "Blue"]
+  },
+  {
+    "name": "50 Shades of Grey",
+    "colors": ["bdc3c7", "2c3e50"],
+    "filter": ["Grey", "White"]
+  },
+  {
+    "name": "Dania",
+    "colors": ["BE93C5", "7BC6CC"],
+    "filter": ["purple", "Green"]
+  },
+  {
+    "name": "Limeade",
+    "colors": ["A1FFCE", "FAFFD1"],
+    "filter": ["Green", "White"]
+  },
+  {
+    "name": "Disco",
+    "colors": ["4ECDC4", "556270"],
+    "filter": ["Green", "Grey"]
+  },
+  {
+    "name": "Love Couple",
+    "colors": ["3a6186", "89253e"],
+    "filter": ["Blue", "Red"]
+  },
+  {
+    "name": "Azure Pop",
+    "colors": ["ef32d9", "89fffd"],
+    "filter": ["Pink", "Blue"]
+  },
+  {
+    "name": "Nepal",
+    "colors": ["de6161", "2657eb"],
+    "filter": ["Red", "Blue"]
+  },
+  {
+    "name": "Cosmic Fusion",
+    "colors": ["ff00cc", "333399"],
+    "filter": ["purple", "Pink"]
+  },
+  {
+    "name": "Snapchat",
+    "colors": ["fffc00", "ffffff"],
+    "filter": ["Yellow", "White"]
+  },
+  {
+    "name": "Ed's Sunset Gradient",
+    "colors": ["ff7e5f", "feb47b"],
+    "filter": ["Orange", "White"]
+  },
+  {
+    "name": "Brady Brady Fun Fun",
+    "colors": ["00c3ff", "ffff1c"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Black Rosé",
+    "colors": ["f4c4f3", "fc67fa"],
+    "filter": ["White", "Pink"]
+  },
+  {
+    "name": "80's Purple",
+    "colors": ["41295a", "2F0743"],
+    "filter": ["purple", "Black"]
+  },
+  {
+    "name": "Radar",
+    "colors": ["A770EF", "CF8BF3", "FDB99B"],
+    "filter": ["purple", "Pink"]
+  },
+  {
+    "name": "Ibiza Sunset",
+    "colors": ["ee0979", "ff6a00"],
+    "filter": ["Orange", "Red"]
+  },
+  {
+    "name": "Dawn",
+    "colors": ["F3904F", "3B4371"],
+    "filter": ["Yellow", "Blue"]
+  },
+  {
+    "name": "Mild",
+    "colors": ["67B26F", "4ca2cd"],
+    "filter": ["Green", "Blue"]
+  },
+  {
+    "name": "Vice City",
+    "colors": ["3494E6", "EC6EAD"],
+    "filter": ["Blue", "Pink"]
+  },
+  {
+    "name": "Jaipur",
+    "colors": ["DBE6F6", "C5796D"],
+    "filter": ["Pink", "White"]
+  },
+  {
+    "name": "Jodhpur",
+    "colors": ["9CECFB", "65C7F7", "0052D4"],
+    "filter": ["White", "Blue"]
+  },
+  {
+    "name": "Cocoaa Ice",
+    "colors": ["c0c0aa", "1cefff"],
+    "filter": ["Blue", "Yellow"]
+  },
+  {
+    "name": "EasyMed",
+    "colors": ["DCE35B", "45B649"],
+    "filter": ["Yellow", "Green"]
+  },
+  {
+    "name": "Rose ColoRed Lenses",
+    "colors": ["E8CBC0", "636FA4"],
+    "filter": ["Pink", "Grey"]
+  },
+  {
+    "name": "What lies Beyond",
+    "colors": ["F0F2F0", "000C40"],
+    "filter": ["White", "Grey"]
+  },
+  {
+    "name": "Roseanna",
+    "colors": ["FFAFBD", "ffc3a0"],
+    "filter": ["Pink", "Yellow"]
+  },
+  {
+    "name": "Honey Dew",
+    "colors": ["43C6AC", "F8FFAE"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Under the Lake",
+    "colors": ["093028", "237A57"],
+    "filter": ["Black", "Green"]
+  },
+  {
+    "name": "The Blue Lagoon",
+    "colors": ["43C6AC", "191654"],
+    "filter": ["Green", "Blue"]
+  },
+  {
+    "name": "Can You Feel The Love",
+    "colors": ["4568DC", "B06AB3"],
+    "filter": ["Blue", "Pink"]
+  },
+  {
+    "name": "Very Blue",
+    "colors": ["0575E6", "021B79"],
+    "filter": ["Blue", "Blue"]
+  },
+  {
+    "name": "Love and Liberty",
+    "colors": ["200122", "6f0000"],
+    "filter": ["Black", "Red"]
+  },
+  {
+    "name": "Orca",
+    "colors": ["44A08D", "093637"],
+    "filter": ["Green", "Black"]
+  },
+  {
+    "name": "Venice",
+    "colors": ["6190E8", "A7BFE8"],
+    "filter": ["Blue", "purple"]
+  },
+  {
+    "name": "Pacific Dream",
+    "colors": ["34e89e", "0f3443"],
+    "filter": ["Green", "Black"]
+  },
+  {
+    "name": "Learning and Leading",
+    "colors": ["F7971E", "FFD200"],
+    "filter": ["Orange", "Yellow"]
+  },
+  {
+    "name": "Celestial",
+    "colors": ["C33764", "1D2671"],
+    "filter": ["Red", "Blue"]
+  },
+  {
+    "name": "Purplepine",
+    "colors": ["20002c", "cbb4d4"],
+    "filter": ["White", "Grey"]
+  },
+  {
+    "name": "Sha la la",
+    "colors": ["D66D75", "E29587"],
+    "filter": ["Pink", "White"]
+  },
+  {
+    "name": "Mini",
+    "colors": ["30E8BF", "FF8235"],
+    "filter": ["Green", "Orange"]
+  },
+  {
+    "name": "Maldives",
+    "colors": ["B2FEFA", "0ED2F7"],
+    "filter": ["Blue", "White"]
+  },
+  {
+    "name": "Cinnamint",
+    "colors": ["4AC29A", "BDFFF3"],
+    "filter": ["White", "Green"]
+  },
+  {
+    "name": "Html",
+    "colors": ["E44D26", "F16529"],
+    "filter": ["Orange"]
+  },
+  {
+    "name": "Coal",
+    "colors": ["EB5757", "000000"],
+    "filter": ["Red", "Black"]
+  },
+  {
+    "name": "Sunkist",
+    "colors": ["F2994A", "F2C94C"],
+    "filter": ["Orange", "White"]
+  },
+  {
+    "name": "Blue Skies",
+    "colors": ["56CCF2", "2F80ED"],
+    "filter": ["Blue", "White"]
+  },
+  {
+    "name": "Chitty Chitty Bang Bang",
+    "colors": ["007991", "78ffd6"],
+    "filter": ["Green", "Blue"]
+  },
+  {
+    "name": "Visions of Grandeur",
+    "colors": ["000046", "1CB5E0"],
+    "filter": ["Blue", "Blue"]
+  },
+  {
+    "name": "Crystal Clear",
+    "colors": ["159957", "155799"],
+    "filter": ["Green", "Blue"]
+  },
+  {
+    "name": "Mello",
+    "colors": ["c0392b", "8e44ad"],
+    "filter": ["Red", "purple"]
+  },
+  {
+    "name": "Compare Now",
+    "colors": ["EF3B36", "FFFFFF"],
+    "filter": ["Red", "White"]
+  },
+  {
+    "name": "Meridian",
+    "colors": ["283c86", "45a247"],
+    "filter": ["Green", "Blue"]
+  },
+  {
+    "name": "Relay",
+    "colors": ["3A1C71", "D76D77", "FFAF7B"],
+    "filter": ["purple", "Pink"]
+  },
+  {
+    "name": "Alive",
+    "colors": ["CB356B", "BD3F32"],
+    "filter": ["Red", "Red"]
+  },
+  {
+    "name": "Scooter",
+    "colors": ["36D1DC", "5B86E5"],
+    "filter": ["Blue", "White"]
+  },
+  {
+    "name": "Terminal",
+    "colors": ["000000", "0f9b0f"],
+    "filter": ["Green", "Black"]
+  },
+  {
+    "name": "Telegram",
+    "colors": ["1c92d2", "f2fcfe"],
+    "filter": ["Blue", "White"]
+  },
+  {
+    "name": "Crimson Tide",
+    "colors": ["642B73", "C6426E"],
+    "filter": ["purple", "Pink"]
+  },
+  {
+    "name": "Socialive",
+    "colors": ["06beb6", "48b1bf"],
+    "filter": ["Green", "Blue"]
+  },
+  {
+    "name": "Subu",
+    "colors": ["0cebeb", "20e3b2", "29ffc6"],
+    "filter": ["Green"]
+  },
+  {
+    "name": "Broken Hearts",
+    "colors": ["d9a7c7", "fffcdc"],
+    "filter": ["Pink", "White"]
+  },
+  {
+    "name": "Kimoby Is The New Blue",
+    "colors": ["396afc", "2948ff"],
+    "filter": ["Blue", "Blue"]
+  },
+  {
+    "name": "Dull",
+    "colors": ["C9D6FF", "E2E2E2"],
+    "filter": ["White", "Grey"]
+  },
+  {
+    "name": "PurPink",
+    "colors": ["7F00FF", "E100FF"],
+    "filter": ["purple", "Pink"]
+  },
+  {
+    "name": "Orange Coral",
+    "colors": ["ff9966", "ff5e62"],
+    "filter": ["Orange", "Yellow"]
+  },
+  {
+    "name": "Summer",
+    "colors": ["22c1c3", "fdbb2d"],
+    "filter": ["Yellow", "Blue"]
+  },
+  {
+    "name": "King Yna",
+    "colors": ["1a2a6c", "b21f1f", "fdbb2d"],
+    "filter": ["Black", "Orange"]
+  },
+  {
+    "name": "Velvet Sun",
+    "colors": ["e1eec3", "f05053"],
+    "filter": ["White", "Red"]
+  },
+  {
+    "name": "Zinc",
+    "colors": ["ADA996", "F2F2F2", "DBDBDB", "EAEAEA"],
+    "filter": ["White", "Grey"]
+  },
+  {
+    "name": "Hydrogen",
+    "colors": ["667db6", "0082c8", "0082c8", "667db6"],
+    "filter": ["Blue", "Blue"]
+  },
+  {
+    "name": "Argon",
+    "colors": ["03001e", "7303c0", "ec38bc", "fdeff9"],
+    "filter": ["purple", "Pink"]
+  },
+  {
+    "name": "Lithium",
+    "colors": ["6D6027", "D3CBB8"],
+    "filter": ["Yellow", "White"]
+  },
+  {
+    "name": "Digital Water",
+    "colors": ["74ebd5", "ACB6E5"],
+    "filter": ["White", "Blue"]
+  },
+  {
+    "name": "Orange Fun",
+    "colors": ["fc4a1a", "f7b733"],
+    "filter": ["Orange", "Orange"]
+  },
+  {
+    "name": "Rainbow Blue",
+    "colors": ["00F260", "0575E6"],
+    "filter": ["Blue", "Green"]
+  },
+  {
+    "name": "Pink Flavour",
+    "colors": ["800080", "ffc0cb"],
+    "filter": ["Pink", "purple"]
+  },
+  {
+    "name": "Sulphur",
+    "colors": ["CAC531", "F3F9A7"],
+    "filter": ["Yellow", "White"]
+  },
+  {
+    "name": "Selenium",
+    "colors": ["3C3B3F", "605C3C"],
+    "filter": ["Black", "Grey"]
+  },
+  {
+    "name": "Delicate",
+    "colors": ["D3CCE3", "E9E4F0"],
+    "filter": ["White", "Pink"]
+  },
+  {
+    "name": "Ohhappiness",
+    "colors": ["00b09b", "96c93d"],
+    "filter": ["Green", "Green"]
+  },
+  {
+    "name": "Lawrencium",
+    "colors": ["0f0c29", "302b63", "24243e"],
+    "filter": ["Black", "Blue"]
+  },
+  {
+    "name": "Relaxing Red",
+    "colors": ["fffbd5", "b20a2c"],
+    "filter": ["White", "Red"]
+  },
+  {
+    "name": "Taran Tado",
+    "colors": ["23074d", "cc5333"],
+    "filter": ["Black", "Orange"]
+  },
+  {
+    "name": "Bighead",
+    "colors": ["c94b4b", "4b134f"],
+    "filter": ["Orange", "purple"]
+  },
+  {
+    "name": "Sublime Vivid",
+    "colors": ["FC466B", "3F5EFB"],
+    "filter": ["Pink", "purple"]
+  },
+  {
+    "name": "Sublime Light",
+    "colors": ["FC5C7D", "6A82FB"],
+    "filter": ["purple", "Pink"]
+  },
+  {
+    "name": "Pun Yeta",
+    "colors": ["108dc7", "ef8e38"],
+    "filter": ["Blue", "Orange"]
+  },
+  {
+    "name": "Quepal",
+    "colors": ["11998e", "38ef7d"],
+    "filter": ["Green", "Green"]
+  },
+  {
+    "name": "Sand to Blue",
+    "colors": ["3E5151", "DECBA4"],
+    "filter": ["Grey", "White"]
+  },
+  {
+    "name": "Wedding Day Blues",
+    "colors": ["40E0D0", "FF8C00", "FF0080"],
+    "filter": ["Pink", "Orange"]
+  },
+  {
+    "name": "Shifter",
+    "colors": ["bc4e9c", "f80759"],
+    "filter": ["Pink", "purple"]
+  },
+  {
+    "name": "Red Sunset",
+    "colors": ["355C7D", "6C5B7B", "C06C84"],
+    "filter": ["Pink", "Grey"]
+  },
+  {
+    "name": "Moon Purple",
+    "colors": ["4e54c8", "8f94fb"],
+    "filter": ["purple", "Blue"]
+  },
+  {
+    "name": "Pure Lust",
+    "colors": ["333333", "dd1818"],
+    "filter": ["Red", "Black"]
+  },
+  {
+    "name": "Slight Ocean View",
+    "colors": ["a8c0ff", "3f2b96"],
+    "filter": ["White", "purple"]
+  },
+  {
+    "name": "eXpresso",
+    "colors": ["ad5389", "3c1053"],
+    "filter": ["purple", "Pink"]
+  },
+  {
+    "name": "Shifty",
+    "colors": ["636363", "a2ab58"],
+    "filter": ["Grey", "Yellow"]
+  },
+  {
+    "name": "Vanusa",
+    "colors": ["DA4453", "89216B"],
+    "filter": ["purple", "Red"]
+  },
+  {
+    "name": "Evening Night",
+    "colors": ["005AA7", "FFFDE4"],
+    "filter": ["Blue", "White"]
+  },
+  {
+    "name": "Magic",
+    "colors": ["59C173", "a17fe0", "5D26C1"],
+    "filter": ["purple", "Green"]
+  },
+  {
+    "name": "Margo",
+    "colors": ["FFEFBA", "FFFFFF"],
+    "filter": ["White", "Yellow"]
+  },
+  {
+    "name": "Blue Raspberry",
+    "colors": ["00B4DB", "0083B0"],
+    "filter": ["Blue", "Blue"]
+  },
+  {
+    "name": "Citrus Peel",
+    "colors": ["FDC830", "F37335"],
+    "filter": ["Orange", "Orange"]
+  },
+  {
+    "name": "Sin City Red",
+    "colors": ["ED213A", "93291E"],
+    "filter": ["Red", "Red"]
+  },
+  {
+    "name": "Rastafari",
+    "colors": ["1E9600", "FFF200", "FF0000"],
+    "filter": ["Green", "Orange"]
+  },
+  {
+    "name": "Summer Dog",
+    "colors": ["a8ff78", "78ffd6"],
+    "filter": ["Green", "White"]
+  },
+  {
+    "name": "Wiretap",
+    "colors": ["8A2387", "E94057", "F27121"],
+    "filter": ["purple", "Orange"]
+  },
+  {
+    "name": "Burning Orange",
+    "colors": ["FF416C", "FF4B2B"],
+    "filter": ["Orange", "Orange"]
+  },
+  {
+    "name": "Ultra Voilet",
+    "colors": ["654ea3", "eaafc8"],
+    "filter": ["purple", "Pink"]
+  },
+  {
+    "name": "By Design",
+    "colors": ["009FFF", "ec2F4B"],
+    "filter": ["Blue", "Red"]
+  },
+  {
+    "name": "Kyoo Tah",
+    "colors": ["544a7d", "ffd452"],
+    "filter": ["Grey", "Yellow"]
+  },
+  {
+    "name": "Kye Meh",
+    "colors": ["8360c3", "2ebf91"],
+    "filter": ["purple", "Green"]
+  },
+  {
+    "name": "Kyoo Pal",
+    "colors": ["dd3e54", "6be585"],
+    "filter": ["Orange", "Green"]
+  },
+  {
+    "name": "Metapolis",
+    "colors": ["659999", "f4791f"],
+    "filter": ["Grey", "Orange"]
+  },
+  {
+    "name": "Flare",
+    "colors": ["f12711", "f5af19"],
+    "filter": ["Orange", "Yellow"]
+  },
+  {
+    "name": "Witching Hour",
+    "colors": ["c31432", "240b36"],
+    "filter": ["Red", "purple"]
+  },
+  {
+    "name": "Azur Lane",
+    "colors": ["7F7FD5", "86A8E7", "91EAE4"],
+    "filter": ["White", "Blue"]
+  },
+  {
+    "name": "Neuromancer",
+    "colors": ["f953c6", "b91d73"],
+    "filter": ["Pink", "Pink"]
+  },
+  {
+    "name": "Harvey",
+    "colors": ["1f4037", "99f2c8"],
+    "filter": ["Grey", "White"]
+  },
+  {
+    "name": "Amin",
+    "colors": ["8E2DE2", "4A00E0"],
+    "filter": ["purple", "purple"]
+  },
+  {
+    "name": "Memariani",
+    "colors": ["aa4b6b", "6b6b83", "3b8d99"],
+    "filter": ["Pink", "Green"]
+  },
+  {
+    "name": "Yoda",
+    "colors": ["FF0099", "493240"],
+    "filter": ["Pink", "Grey"]
+  },
+  {
+    "name": "Cool Sky",
+    "colors": ["2980B9", "6DD5FA", "FFFFFF"],
+    "filter": ["Blue", "White"]
+  },
+  {
+    "name": "Dark Ocean",
+    "colors": ["373B44", "4286f4"],
+    "filter": ["Black", "Blue"]
+  },
+  {
+    "name": "Evening Sunshine",
+    "colors": ["b92b27", "1565C0"],
+    "filter": ["Red", "Blue"]
+  },
+  {
+    "name": "JShine",
+    "colors": ["12c2e9", "c471ed", "f64f59"],
+    "filter": ["Pink", "purple"]
+  },
+  {
+    "name": "Moonlit Asteroid",
+    "colors": ["0F2027", "203A43", "2C5364"],
+    "filter": ["Black", "Grey"]
+  },
+  {
+    "name": "MegaTron",
+    "colors": ["C6FFDD", "FBD786", "f7797d"],
+    "filter": ["White", "Pink"]
+  },
+  {
+    "name": "Cool Blues",
+    "colors": ["2193b0", "6dd5ed"],
+    "filter": ["Blue", "White"]
+  },
+  {
+    "name": "Piggy Pink",
+    "colors": ["ee9ca7", "ffdde1"],
+    "filter": ["Pink", "White"]
+  },
+  {
+    "name": "Grade Grey",
+    "colors": ["bdc3c7", "2c3e50"],
+    "filter": ["Grey", "White"]
+  },
+  {
+    "name": "Telko",
+    "colors": ["F36222", "5CB644", "007FC3"],
+    "filter": ["Red", "Green"]
+  },
+  {
+    "name": "Zenta",
+    "colors": ["2A2D3E", "FECB6E"],
+    "filter": ["Yellow", "Grey"]
+  },
+  {
+    "name": "Electric Peacock",
+    "colors": ["8a2be2", "0000cd", "228b22", "ccff00"],
+    "filter": ["Blue", "Green"]
+  },
+  {
+    "name": "Under Blue Green",
+    "colors": ["051937", "004d7a", "008793", "00bf72", "a8eb12"],
+    "filter": ["Green", "Yellow"]
+  },
+  {
+    "name": "Lensod",
+    "colors": ["6025F5", "FF5555"],
+    "filter": ["Pink", "purple"]
+  },
+  {
+    "name": "Newspaper",
+    "colors": ["8a2be2", "ffa500", "f8f8ff"],
+    "filter": ["purple", "White"]
+  },
+  {
+    "name": "Dark Blue Gradient",
+    "colors": ["2774ae", "002E5D", "002E5D"],
+    "filter": ["Black", "Blue"]
+  },
+  {
+    "name": "Dark Blu Two",
+    "colors": ["004680", "4484BA"],
+    "filter": ["Black", "Blue"]
+  },
+  {
+    "name": "Lemon Lime",
+    "colors": ["7ec6bc", "ebe717"],
+    "filter": ["White", "Yellow"]
+  },
+  {
+    "name": "Beleko",
+    "colors": ["ff1e56", "f9c942", "1e90ff"],
+    "filter": ["Red", "Yellow"]
+  },
+  {
+    "name": "Mango Papaya",
+    "colors": ["de8a41", "2ada53"],
+    "filter": ["Orange", "Green"]
+  },
+  {
+    "name": "Unicorn Rainbow",
+    "colors": ["f7f0ac", "acf7f0", "f0acf7"],
+    "filter": ["White", "Pink"]
+  },
+  {
+    "name": "Flame",
+    "colors": ["ff0000", "fdcf58"],
+    "filter": ["Orange", "Red"]
+  },
+  {
+    "name": "Blue Red",
+    "colors": ["36B1C7", "960B33"],
+    "filter": ["Red", "Blue"]
+  },
+  {
+    "name": "Twitter",
+    "colors": ["1DA1F2", "009ffc"],
+    "filter": ["Blue", "Blue"]
+  },
+  {
+    "name": "Blooze",
+    "colors": ["6da6be", "4b859e", "6da6be"],
+    "filter": ["Grey", "White"]
+  },
+  {
+    "name": "Blue Slate",
+    "colors": ["B5B9FF", "2B2C49"],
+    "filter": ["Grey", "White"]
+  },
+  {
+    "name": "Space Light Green",
+    "colors": ["9FA0A8", "5C7852"],
+    "filter": ["Grey", "White"]
+  },
+  {
+    "name": "Flower",
+    "colors": ["DCFFBD", "CC86D1"],
+    "filter": ["Pink", "White"]
+  },
+  {
+    "name": "Elate The Euge",
+    "colors": ["8BDEDA", "43ADD0", "998EE0", "E17DC2", "EF9393"],
+    "filter": ["Pink", "White"]
+  },
+  {
+    "name": "Peach Sea",
+    "colors": ["E6AE8C", "A8CECF"],
+    "filter": ["White", "Pink"]
+  },
+  {
+    "name": "Abbas",
+    "colors": ["00fff0", "0083fe"],
+    "filter": ["Blue", "Blue"]
+  },
+  {
+    "name": "Winter Woods",
+    "colors": ["333333", "a2ab58", "A43931"],
+    "filter": ["Black", "Yellow"]
+  },
+  {
+    "name": "Ameena",
+    "colors": ["0c0c6d", "de512b", "98d0c1", "5bb226", "023c0d"],
+    "filter": ["Green", "Red"]
+  },
+  {
+    "name": "Emerald Sea",
+    "colors": ["05386b", "5cdb95"],
+    "filter": ["Green", "Grey"]
+  },
+  {
+    "name": "Bleem",
+    "colors": ["4284DB", "29EAC4"],
+    "filter": ["Blue", "Green"]
+  },
+  {
+    "name": "Coffee Gold",
+    "colors": ["554023", "c99846"],
+    "filter": ["Yellow", "Grey"]
+  },
+  {
+    "name": "Compass",
+    "colors": ["516b8b", "056b3b"],
+    "filter": ["Green", "Grey"]
+  },
+  {
+    "name": "Andreuzza's",
+    "colors": ["D70652", "FF025E"],
+    "filter": ["Red", "Pink"]
+  },
+  {
+    "name": "Moonwalker",
+    "colors": ["152331", "000000"],
+    "filter": ["Black", "Grey"]
+  },
+  {
+    "name": "Whinehouse",
+    "colors": ["f7f7f7", "b9a0a0", "794747", "4e2020", "111111"],
+    "filter": ["White", "Grey"]
+  },
+  {
+    "name": "Hyper Blue",
+    "colors": ["59CDE9", "0A2A88"],
+    "filter": ["Blue", "Blue"]
+  },
+  {
+    "name": "Racker",
+    "colors": ["EB0000", "95008A", "3300FC"],
+    "filter": ["Red", "Blue"]
+  },
+  {
+    "name": "Neon Green",
+    "colors": ["81ff8a", "64965e"],
+    "filter": ["Green", "White"]
+  },
+  {
+    "name": "Dusty Grass",
+    "colors": ["d4fc79", "96e6a1"],
+    "filter": ["White", "Yellow"]
+  },
+  {
+    "name": "Visual Blue",
+    "colors": ["003d4d", "00c996"],
+    "filter": ["Green", "Grey"]
+  }
+]
