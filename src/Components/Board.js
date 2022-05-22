@@ -1,8 +1,7 @@
-import react from "react";
-
 const Board = () => {
   return (
     <div>
+      <h4>Board</h4>
       <h4>Board</h4>
     </div>
   );

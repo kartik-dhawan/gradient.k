@@ -1,0 +1,30 @@
+$palette-colors : (
+  "All": #ad6969,
+  "Red": red,
+  "Yellow": yellow,
+  "Green": green,
+  "Pink": pink,
+  "Blue": blue,
+  "White": white,
+  "Black": black,
+  "Grey": #454545,
+  "Orange": orange
+);
+
+@each $key, $val in $palette-colors{
+  div .#{$key}{
+    background-color: $val;
+  }
+}
+
+:root{
+  --navColor: black;
+}
+
+.App {
+  text-align: auto;
+  margin: 0px;
+  padding: 0px;
+  color: #dc9da7;
+}
+

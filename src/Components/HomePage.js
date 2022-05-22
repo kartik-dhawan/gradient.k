@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import data from "../assets/Gradient.json";
 import Board from "./Board";
 import Browse from "./Browse";
-import "../App.css";
 
 const HomePage = () => {
   const [bar1, setBar1] = useState("clicked");

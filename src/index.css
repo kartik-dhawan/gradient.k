@@ -81,16 +81,32 @@ body {
 }
 
 .gradient-card-container {
-  display: -ms-grid;
-  display: grid;
-  grid-auto-rows: 10px;
-  -ms-grid-columns: (220px)[auto-fill];
-      grid-template-columns: repeat(auto-fill, 220px);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 30vh;
+  padding-top: 22px;
+  position: relative;
+  top: 18.3vh;
   background-color: black;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-rows: 10px;
+  -ms-grid-columns: (225px)[auto-fill];
+      grid-template-columns: repeat(auto-fill, 225px);
+}
+
+@media (min-width: 720px) {
+  .gradient-card-container {
+    -ms-grid-columns: (245px)[auto-fill];
+        grid-template-columns: repeat(auto-fill, 245px);
+  }
+}
+
+@media (min-width: 900px) {
+  .gradient-card-container {
+    -ms-grid-columns: (270px)[auto-fill];
+        grid-template-columns: repeat(auto-fill, 270px);
+  }
 }
 
 .gradient-card-container .card-details {
@@ -120,5 +136,223 @@ body {
   color: white;
   font-weight: bold;
   letter-spacing: 2px;
+}
+
+.popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100000000;
+  background-color: #1e1e1e;
+  width: 100%;
+  height: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 60px 60px 0px 0px;
+}
+
+@media (min-width: 720px) {
+  .popup {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 80%;
+    height: 22vh;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+@media (min-width: 900px) {
+  .popup {
+    width: 65%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .popup {
+    width: 50%;
+  }
+}
+
+.popup .popup-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 5px;
+}
+
+.popup .popup-title #grad-name {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px 50px 10px 50px;
+  border-bottom: 0.3px solid rgba(255, 255, 255, 0.571);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.popup .popup-title #grad-codes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px 50px 10px 50px;
+}
+
+.popup .popup-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 7px;
+}
+
+.popup .popup-buttons .close, .popup .popup-buttons #copy-btn, .popup .popup-buttons #add-btn {
+  background: #454545;
+  height: 6vh;
+  width: 10vh;
+  border: none;
+  border-radius: 5vh;
+  margin: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.popup .popup-buttons #copy-btn, .popup .popup-buttons #add-btn {
+  width: 6vh;
+  border: 1px solid #454545;
+}
+
+.popup .close-bar {
+  position: absolute;
+  height: 4px;
+  width: 130px;
+  background-color: rgba(255, 255, 255, 0.801);
+  border-radius: 3px;
+  top: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.copied {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f5f5f5bf;
+  padding: 3px 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border: 1px solid #454545a6;
+  border-radius: 4px;
+  font-size: 20px;
+  opacity: 0;
+  -webkit-transition: 1000ms all ease;
+  transition: 1000ms all ease;
+}
+
+.copiedActive {
+  opacity: 1;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+.copiedInactive {
+  opacity: 0;
+  -webkit-transform: translateY(-170%);
+          transform: translateY(-170%);
+}
+
+div .All {
+  background-color: #ad6969;
+}
+
+div .Red {
+  background-color: red;
+}
+
+div .Yellow {
+  background-color: yellow;
+}
+
+div .Green {
+  background-color: green;
+}
+
+div .Pink {
+  background-color: pink;
+}
+
+div .Blue {
+  background-color: blue;
+}
+
+div .White {
+  background-color: white;
+}
+
+div .Black {
+  background-color: black;
+}
+
+div .Grey {
+  background-color: #454545;
+}
+
+div .Orange {
+  background-color: orange;
+}
+
+:root {
+  --navColor: black;
+}
+
+.App {
+  text-align: auto;
+  margin: 0px;
+  padding: 0px;
+  color: #dc9da7;
 }
 /*# sourceMappingURL=index.css.map */

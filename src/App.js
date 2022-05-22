@@ -1,9 +1,6 @@
-import "./App.css";
 import HomePage from "./Components/HomePage";
 import LoginPage from "./Components/LoginPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Board from "./Components/Board";
-import Browse from "./Components/Browse";
 
 function App() {
   return (
