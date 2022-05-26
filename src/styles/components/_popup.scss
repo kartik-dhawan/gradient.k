@@ -1,10 +1,3 @@
-@mixin center-flex($direction) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: $direction;
-}
-
 .popup{
     position: fixed;
     bottom: 0;
@@ -47,16 +40,9 @@
         display: flex;
         margin: 7px;
         .close{
-            background: #454545;
+            @include popup-button;
             height: 6vh;
             width: 10vh;
-            border: none;
-            border-radius: 5vh;
-            margin: 5px;
-            color: white;
-            font-weight: 600;
-            font-size: 17px;
-            cursor: pointer;
         }  
         #copy-btn, #add-btn{
             @extend .close;

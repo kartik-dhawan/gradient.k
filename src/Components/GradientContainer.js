@@ -46,6 +46,7 @@ const GradientContainer = ({ filtercolor }) => {
                 <Card
                   className="grad-card"
                   GradData={gradient}
+                  colorCode={colorCode}
                   handleColor={handleColor}
                   handleName={handleName}
                   key={Math.random()}

@@ -10,11 +10,9 @@ export const popupSlice = createSlice({
   reducers: {
     showPopup: (state) => {
       state.activity = true;
-      console.log(state.activity);
     },
     removePopup: (state) => {
       state.activity = false;
-      console.log(state.activity);
     },
   },
 });

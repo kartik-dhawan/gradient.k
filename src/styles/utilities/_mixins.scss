@@ -1,0 +1,17 @@
+@mixin center-flex($direction) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direction;
+}
+
+@mixin popup-button{
+    background: #454545;
+    border: none;
+    border-radius: 5vh;
+    margin: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+}
