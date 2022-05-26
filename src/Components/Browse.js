@@ -15,7 +15,7 @@ const Browse = () => {
 
   return (
     <>
-      <ColorPalette className="colorPalette">
+      <ColorPalette className="colorPalette" data-testid="gn2">
         <button onClick={scrollLeft}>{"<"}</button>
         <button onClick={scrollRight}>{">"}</button>
         {colorsData.map((data) => {
