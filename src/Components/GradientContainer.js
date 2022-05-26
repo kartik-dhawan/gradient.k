@@ -3,10 +3,13 @@ import "../detailsCard.css";
 import GradData from "../assets/Gradient.json";
 import Card from "./BrowseComponents/Card";
 import Popup from "./BrowseComponents/Popup";
+import { useSelector } from "react-redux";
 
 const GradientContainer = ({ filtercolor }) => {
   const [colorCode, setColorCode] = useState("");
   const [gradientName, setGradientName] = useState("");
+
+  const popupStatus = useSelector((state) => state.popup.activity);
 
   const handleColor = (color) => {
     setColorCode(color);
@@ -15,8 +18,6 @@ const GradientContainer = ({ filtercolor }) => {
   const handleName = (name) => {
     setGradientName(name);
   };
-
-  let act = false;
 
   return (
     <div>
@@ -52,15 +53,17 @@ const GradientContainer = ({ filtercolor }) => {
               );
             })}
       </div>
-      {colorCode && (
+      {popupStatus === true ? (
         <Popup
           className="popup-card"
           colorCode={colorCode}
           gradientName={gradientName}
         />
+      ) : (
+        ""
       )}
     </div>
   );
 };
 
-export default GradientContainer;
+export default React.memo(GradientContainer);

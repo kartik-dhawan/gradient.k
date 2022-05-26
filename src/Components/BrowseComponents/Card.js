@@ -1,4 +1,11 @@
+import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { showPopup } from "/Users/kartik.dhawan/react.js/gradient.k/src/redux/reducers/popupSlice.js";
+
 const Card = ({ GradData, handleColor, handleName }) => {
+  const popupStatus = useSelector((state) => state.popup.activity);
+  const dispatch = useDispatch();
+
   let ranLen = 1 + Math.round(Math.random() * 4);
   let cardSize;
   if (ranLen === 1) {
@@ -28,8 +35,10 @@ const Card = ({ GradData, handleColor, handleName }) => {
         <button
           className="details-button"
           onClick={(e) => {
+            console.log("opened popup");
             handleColor(GradData.colors);
             handleName(GradData.name);
+            dispatch(showPopup(popupStatus));
             e.preventDefault();
           }}
         >
@@ -40,4 +49,4 @@ const Card = ({ GradData, handleColor, handleName }) => {
   );
 };
 
-export default Card;
+export default React.memo(Card);
