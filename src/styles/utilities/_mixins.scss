@@ -16,6 +16,13 @@
     cursor: pointer;
 }
 
+@mixin image-props($url){
+    background: url('#{$url}');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .active{
     border-bottom: 1.6px solid white;
 }

@@ -1,7 +1,8 @@
 const Board = () => {
   return (
-    <div>
-      <h4>Board</h4>
+    <div className="boardContainer">
+      <div className="profileHeader" />
+      <div className="profilePicture" />
     </div>
   );
 };

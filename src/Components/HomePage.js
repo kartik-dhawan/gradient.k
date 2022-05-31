@@ -35,9 +35,7 @@ const HomePage = () => {
           </span>
         </Tabs>
         {board ? (
-          <BoardContainer>
-            <Board></Board>
-          </BoardContainer>
+          <Board></Board>
         ) : browse ? (
           <BrowseContainer>
             <Browse></Browse>
@@ -126,10 +124,6 @@ const Tabs = styled.nav`
     font-size: 22px;
     height: 5vh;
     justify-content: start;
-    position: sticky;
-    top: 6.3vh;
-    left: 0px;
-    padding-bottom: 20px;
   }
   span {
     margin: 0px 5px;
@@ -148,11 +142,6 @@ const Tabs = styled.nav`
   }
 `;
 
-const BoardContainer = styled.aside`
-  position: absolute;
-  top: 12vh;
-  background-color: red;
-`;
 const BrowseContainer = styled.aside`
   background-color: #454545;
   display: flex;
