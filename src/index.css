@@ -5,6 +5,14 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.active {
+  border-bottom: 1.6px solid white;
+}
+
+.inactive {
+  border-bottom: 1.6px solid black;
+}
+
 .xsmall-card {
   -ms-grid-row-span: 17;
       grid-row-end: span 17;

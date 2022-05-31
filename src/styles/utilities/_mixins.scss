@@ -15,3 +15,11 @@
     font-size: 17px;
     cursor: pointer;
 }
+
+.active{
+    border-bottom: 1.6px solid white;
+}
+
+.inactive{
+    border-bottom: 1.6px solid black;
+}

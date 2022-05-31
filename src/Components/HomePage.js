@@ -1,26 +1,16 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import { useSelector, useDispatch } from "react-redux";
+import { switchToBoard, switchToBrowse } from "../redux/reducers/utilitySlice";
 import Board from "./Board";
 import Browse from "./Browse";
 
 const HomePage = () => {
-  const [bar1, setBar1] = useState("clicked");
-  const [bar2, setBar2] = useState("un-clicked");
-  const [activeBoard, setActiveBoard] = useState("active");
-  const [activeBrowse, setActiveBrowse] = useState("in-active");
-
-  const changeToBrowse = () => {
-    setBar1("un-clicked");
-    setBar2("clicked");
-    setActiveBrowse("active");
-    setActiveBoard("in-active");
-  };
-  const changeToBoard = () => {
-    setBar1("clicked");
-    setBar2("un-clicked");
-    setActiveBoard("active");
-    setActiveBrowse("in-active");
-  };
+  const board = useSelector((state) => state.utility.boardToggle);
+  const browse = useSelector((state) => state.utility.browseToggle);
+  const dispatch = useDispatch();
+  console.log("board is: " + board);
+  console.log("browse is: " + browse);
 
   return (
     <Container>
@@ -31,19 +21,30 @@ const HomePage = () => {
       </NavBar>
       <HomeSection>
         <Tabs>
-          <span className={bar1} onClick={changeToBoard}>
+          <span
+            className={board ? "active" : "inactive"}
+            onClick={() => dispatch(switchToBoard())}
+          >
             Board
           </span>
-          <span className={bar2} onClick={changeToBrowse}>
+          <span
+            className={browse ? "active" : "inactive"}
+            onClick={() => dispatch(switchToBrowse())}
+          >
             Browse
           </span>
         </Tabs>
-        <BoardContainer className={activeBoard}>
-          <Board></Board>
-        </BoardContainer>
-        <BrowseContainer className={activeBrowse}>
-          <Browse></Browse>
-        </BrowseContainer>
+        {board ? (
+          <BoardContainer>
+            <Board></Board>
+          </BoardContainer>
+        ) : browse ? (
+          <BrowseContainer>
+            <Browse></Browse>
+          </BrowseContainer>
+        ) : (
+          ""
+        )}
       </HomeSection>
     </Container>
   );
@@ -106,16 +107,7 @@ const Login = styled.span`
 
 // tabs-switcher and its styled components
 
-const HomeSection = styled.section`
-  position: relative;
-
-  .in-active {
-    display: none;
-  }
-  .active {
-    display: flex;
-  }
-`;
+const HomeSection = styled.section``;
 
 const Tabs = styled.nav`
   background-color: black;
@@ -125,7 +117,7 @@ const Tabs = styled.nav`
   justify-content: center;
   align-items: center;
   font-size: 17px;
-  position: sticky;
+  position: fixed;
   top: 6vh;
   left: 0px;
   z-index: 100;
@@ -144,7 +136,6 @@ const Tabs = styled.nav`
     padding-bottom: 3px;
     font-weight: 500;
     letter-spacing: 0.5px;
-    border-bottom: 1.6px solid;
     border-radius: 1px;
     cursor: pointer;
     margin-top: 0.7rem;
@@ -155,17 +146,11 @@ const Tabs = styled.nav`
       margin-left: 4rem;
     }
   }
-  .clicked {
-    border-color: white;
-    transition: 500ms all ease-in;
-  }
-  .un-clicked {
-    transition: 800ms all ease-out;
-    border-color: black;
-  }
 `;
 
 const BoardContainer = styled.aside`
+  position: absolute;
+  top: 12vh;
   background-color: red;
 `;
 const BrowseContainer = styled.aside`
