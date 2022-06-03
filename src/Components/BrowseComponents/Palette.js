@@ -80,9 +80,9 @@ export const Color = styled.div`
   }
   margin: 0px 15px;
   > .border {
-    border: 1px solid white;
-    border-radius: 50%;
     padding: 2px;
+    height: 100px;
+    width: 100px;
   }
 `;
 

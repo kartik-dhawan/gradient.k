@@ -94,7 +94,7 @@ body {
           justify-content: center;
   padding-top: 22px;
   position: relative;
-  top: 18.3vh;
+  top: 24vh;
   background-color: black;
   display: -ms-grid;
   display: grid;
@@ -442,7 +442,8 @@ body {
   height: 10rem;
   width: 10rem;
   border-radius: 50%;
-  background-color: grey;
+  background-color: #b77d3a;
+  color: #de9e507c;
   background: url("./assets/images/pfp.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -450,6 +451,66 @@ body {
   top: 60%;
   -webkit-box-shadow: 0px 0px 125px 18px black;
           box-shadow: 0px 0px 125px 18px black;
+}
+
+.border {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.border .blob1 {
+  background-image: url("/Users/kartik.dhawan/react.js/gradient.k/src/assets/images/blob1.svg");
+  z-index: -1;
+  height: 140px;
+  width: 140px;
+  position: absolute;
+}
+
+.border .blob2 {
+  background-image: url("/Users/kartik.dhawan/react.js/gradient.k/src/assets/images/blob2.svg");
+  z-index: -1;
+  height: 140px;
+  width: 140px;
+  position: absolute;
+}
+
+.border .blob3 {
+  background-image: url("/Users/kartik.dhawan/react.js/gradient.k/src/assets/images/blob3.svg");
+  z-index: -1;
+  height: 140px;
+  width: 140px;
+  position: absolute;
+}
+
+.border .blob4 {
+  background-image: url("/Users/kartik.dhawan/react.js/gradient.k/src/assets/images/blob4.svg");
+  z-index: -1;
+  height: 140px;
+  width: 140px;
+  position: absolute;
+}
+
+.border .blob5 {
+  background-image: url("/Users/kartik.dhawan/react.js/gradient.k/src/assets/images/blob5.svg");
+  z-index: -1;
+  height: 140px;
+  width: 140px;
+  position: absolute;
+}
+
+.border .blob6 {
+  background-image: url("/Users/kartik.dhawan/react.js/gradient.k/src/assets/images/blob6.svg");
+  z-index: -1;
+  height: 140px;
+  width: 140px;
+  position: absolute;
 }
 
 div .All {

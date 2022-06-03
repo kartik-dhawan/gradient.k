@@ -22,6 +22,12 @@ const Browse = () => {
           return (
             <Color key={data.cid}>
               <div className="border">
+                <div
+                  className={`blob${Math.floor(Math.random() * 6 + 1)}`}
+                ></div>
+                <div
+                  className={`blob${Math.floor(Math.random() * 6 + 1)}`}
+                ></div>
                 <ColorCircle
                   className={data.colorType}
                   onClick={() => {

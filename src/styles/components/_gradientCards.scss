@@ -35,7 +35,7 @@ $card-size : (
     justify-content: center;
     padding-top: 22px;
     position: relative;
-    top: 18.3vh;
+    top: 24vh;
     background-color: black;
     @include grid-rows;
     grid-template-columns: repeat(auto-fill, 225px);
