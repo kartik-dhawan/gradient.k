@@ -3,11 +3,12 @@ import styled from "styled-components";
 export const ColorPalette = styled.nav`
   position: fixed;
   width: 100%;
-  top: 12vh;
-  left: 0;
+  top: 7.6rem;
   z-index: 10000;
+  height: 7rem;
   @media (min-width: 768px) {
-    top: 13vh;
+    top: 7.4rem;
+    height: 8rem;
   }
   @media (min-width: 938px) {
     display: flex;
@@ -15,9 +16,8 @@ export const ColorPalette = styled.nav`
     align-items: center;
   }
   padding: 2px 20px;
-  background-color: black;
+  background-color: rgb(16, 11, 23);
   display: flex;
-  height: fit-content;
   padding: 20px 15px;
   justify-content: start;
   align-items: center;
@@ -59,7 +59,7 @@ export const ColorPalette = styled.nav`
     height: 12vh;
     width: 43px;
     left: -3px;
-    background: linear-gradient(to right, black, #45454500);
+    background: linear-gradient(to right, rgb(13, 9, 20), #45454500);
     z-index: -1;
     @media (min-width: 768px) {
       height: 13vh;
@@ -71,7 +71,7 @@ export const ColorPalette = styled.nav`
     height: 12vh;
     width: 43px;
     right: -3px;
-    background: linear-gradient(to left, black, #45454500);
+    background: linear-gradient(to left, rgb(13, 9, 20), #45454500);
     z-index: -1;
   }
 `;

@@ -21,6 +21,7 @@ body {
   display: -ms-grid;
   display: grid;
   grid-auto-rows: 10px;
+  opacity: 0.65;
 }
 
 .xsmall-gradient {
@@ -36,6 +37,7 @@ body {
   display: -ms-grid;
   display: grid;
   grid-auto-rows: 10px;
+  opacity: 0.65;
 }
 
 .small-gradient {
@@ -51,6 +53,7 @@ body {
   display: -ms-grid;
   display: grid;
   grid-auto-rows: 10px;
+  opacity: 0.65;
 }
 
 .medium-gradient {
@@ -66,6 +69,7 @@ body {
   display: -ms-grid;
   display: grid;
   grid-auto-rows: 10px;
+  opacity: 0.65;
 }
 
 .large-gradient {
@@ -81,6 +85,7 @@ body {
   display: -ms-grid;
   display: grid;
   grid-auto-rows: 10px;
+  opacity: 0.65;
 }
 
 .xlarge-gradient {
@@ -96,7 +101,7 @@ body {
   padding-top: 22px;
   position: relative;
   top: 28vh;
-  background-color: black;
+  background-color: rgba(12, 9, 18, 0.925);
   display: -ms-grid;
   display: grid;
   grid-auto-rows: 10px;
@@ -436,7 +441,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  background-color: #ca5353;
   height: 13rem;
 }
 
@@ -447,11 +451,20 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  opacity: 0.5;
 }
 
 .boardContainer .profileContainer .profile {
   position: absolute;
   top: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  place-items: center;
 }
 
 .boardContainer .profileContainer .profile .profilePicture {
@@ -466,11 +479,16 @@ body {
   background-position: center;
   -webkit-box-shadow: 0px 0px 125px 18px black;
           box-shadow: 0px 0px 125px 18px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .boardContainer .profileContainer .profile .profileTitle {
   text-align: center;
   margin: 15px;
+  font-size: 25px;
+  letter-spacing: 01px;
 }
 
 .border {
@@ -538,7 +556,7 @@ body {
   height: -moz-max-content;
   height: max-content;
   padding: 120px 0px;
-  background-color: rgba(175, 132, 194, 0.12);
+  background-color: #0d0914;
 }
 
 .profileCards .profileCardsContainer {
@@ -566,6 +584,56 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+.profileCards .profileCardsContainer .tagDesign {
+  width: 90%;
+  font-family: 'Cedarville Cursive';
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.511);
+}
+
+@media (min-width: 720px) {
+  .profileCards .profileCardsContainer .tagDesign {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .profileCards .profileCardsContainer .tagDesign {
+    width: 90%;
+    font-size: 25px;
+  }
+}
+
+.profileCards .profileCardsContainer .innerTagDesign {
+  width: 95%;
+  font-family: 'Cedarville Cursive';
+  width: 80%;
+  color: rgba(255, 255, 255, 0.661);
+  font-size: 18px;
+}
+
+@media (min-width: 1200px) {
+  .profileCards .profileCardsContainer .innerTagDesign {
+    display: none;
+  }
+}
+
+.profileCards .profileCardsContainer .innerTagDesignXL {
+  width: 87%;
+  font-family: 'Cedarville Cursive';
+  color: rgba(255, 255, 255, 0.661);
+  display: none;
+  font-size: 20px;
+}
+
+@media (min-width: 1200px) {
+  .profileCards .profileCardsContainer .innerTagDesignXL {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 

@@ -56,8 +56,8 @@ const Container = styled.div`
 
 // navbar and its styled components
 const NavBar = styled.header`
-  background-color: black;
-  height: 6vh;
+  background-color: rgb(16, 11, 23);
+  height: 4rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -106,22 +106,23 @@ const Login = styled.span`
 const HomeSection = styled.section``;
 
 const Tabs = styled.nav`
-  background-color: black;
+  background-color: rgb(16, 11, 23);
   width: 100%;
-  height: 4vh;
+  height: 2.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 17px;
   position: fixed;
-  top: 6vh;
+  top: 4rem;
   left: 0px;
   z-index: 100;
   padding-bottom: 20px;
   @media (min-width: 768px) {
     font-size: 22px;
-    height: 5vh;
+    height: 2.4rem;
     justify-content: start;
+    top: 3.8rem;
   }
   span {
     margin: 0px 5px;
@@ -131,6 +132,7 @@ const Tabs = styled.nav`
     border-radius: 1px;
     cursor: pointer;
     margin-top: 0.7rem;
+    transition: 1000ms all ease;
   }
   > :first-of-type {
     margin-left: 0.5rem;

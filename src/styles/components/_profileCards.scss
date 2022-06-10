@@ -3,9 +3,9 @@
 .profileCards{
     height: max-content;
     padding: 120px 0px;
-    background-color: rgba(175, 132, 194, 0.12);
-    
+    background-color: rgb(13, 9, 20);
     .profileCardsContainer{
+
         padding: 15px 15px;
         display: flex;
         flex-direction: column;
@@ -14,6 +14,39 @@
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: center;
+        }
+        .tagDesign{
+            width: 90%;
+            font-family: 'Cedarville Cursive';
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.511);
+            @include m{
+            font-size: 22px;
+            }
+            @include xl{
+                width: 90%;
+            font-size: 25px;
+            }
+        }
+        .innerTagDesign{
+            width: 95%;
+            font-family: 'Cedarville Cursive';
+            width: 80%;
+            color: rgba(255, 255, 255, 0.661);
+            font-size: 18px;
+            @include xl{
+                display: none;
+            }
+        }
+        .innerTagDesignXL{
+            width: 87%;
+            font-family: 'Cedarville Cursive';
+            color: rgba(255, 255, 255, 0.661);
+            display: none;
+            font-size: 20px;
+            @include xl{
+                display: flex;
+            }
         }
         .profileCard{
             height: max-content;

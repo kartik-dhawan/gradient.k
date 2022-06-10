@@ -23,10 +23,10 @@ $card-size : (
         grid-row-end: span $val;
         margin: 2px 8px;
         @include grid-rows;
+        opacity: 0.65;
     }
     .#{$key}-gradient{
         grid-row-end: span ($val - 4);
-        // background-color: rgb(48, 48, 48);
         border-radius: 10px;
     }
 }
@@ -36,7 +36,7 @@ $card-size : (
     padding-top: 22px;
     position: relative;
     top: 28vh;
-    background-color: black;
+    background-color: rgba(12, 9, 18, 0.925);;
     @include grid-rows;
     grid-template-columns: repeat(auto-fill, 225px);
     @include m {
