@@ -1,8 +1,13 @@
+import Profile from "./Board/Profile";
+import ProfileCards from "./Board/ProfileCards";
+
 const Board = () => {
   return (
     <div className="boardContainer">
-      <div className="profileHeader" />
-      <div className="profilePicture" />
+      <Profile />
+      <div className="profileCards">
+        <ProfileCards />
+      </div>
     </div>
   );
 };

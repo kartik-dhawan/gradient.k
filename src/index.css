@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap");
 body {
   margin: 0px;
   padding: 0px;
@@ -412,9 +413,17 @@ body {
 .boardContainer {
   position: absolute;
   top: 12vh;
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: black;
+}
+
+.boardContainer .profileContainer {
+  display: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -427,9 +436,11 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
+  background-color: #ca5353;
+  height: 13rem;
 }
 
-.boardContainer .profileHeader {
+.boardContainer .profileContainer .profileHeader {
   width: 100%;
   height: 15rem;
   background: url("./assets/images/pfpHeader.jpg");
@@ -438,8 +449,12 @@ body {
   background-position: center;
 }
 
-.boardContainer .profilePicture {
+.boardContainer .profileContainer .profile {
   position: absolute;
+  top: 7rem;
+}
+
+.boardContainer .profileContainer .profile .profilePicture {
   height: 10rem;
   width: 10rem;
   border-radius: 50%;
@@ -449,9 +464,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  top: 60%;
   -webkit-box-shadow: 0px 0px 125px 18px black;
           box-shadow: 0px 0px 125px 18px black;
+}
+
+.boardContainer .profileContainer .profile .profileTitle {
+  text-align: center;
+  margin: 15px;
 }
 
 .border {
@@ -512,6 +531,109 @@ body {
   height: 140px;
   width: 140px;
   position: absolute;
+}
+
+.profileCards {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 120px 0px;
+  background-color: rgba(175, 132, 194, 0.12);
+}
+
+.profileCards .profileCardsContainer {
+  padding: 15px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 1200px) {
+  .profileCards .profileCardsContainer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.profileCards .profileCardsContainer .profileCard {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: 25rem;
+  border: 2px solid rgba(255, 255, 255, 0.755);
+  border-radius: 17px 17px 15px 15px;
+  margin: 20px 0px;
+}
+
+@media (min-width: 720px) {
+  .profileCards .profileCardsContainer .profileCard {
+    width: 34rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .profileCards .profileCardsContainer .profileCard {
+    width: 39rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .profileCards .profileCardsContainer .profileCard {
+    width: 29rem;
+    margin: 20px;
+  }
+}
+
+.profileCards .profileCardsContainer .profileCard .profileCardHeader {
+  width: 100%;
+  height: 2.2rem;
+  border-bottom: 2px solid rgba(252, 252, 252, 0.728);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 5px 8px;
+}
+
+.profileCards .profileCardsContainer .profileCard .profileCardHeader .closeDots {
+  height: 13px;
+  width: 13px;
+  background-color: rgba(255, 255, 255, 0.766);
+  margin: 2px 6px;
+  border-radius: 50%;
+}
+
+.profileCards .profileCardsContainer .profileCard .profileCardBody .profileCardTitle {
+  font-family: 'Cedarville Cursive';
+  font-size: 29px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 10px 20px;
+}
+
+.profileCards .profileCardsContainer .profileCard .profileCardBody .profileCardText {
+  font-family: 'Cedarville Cursive';
+  font-size: 20px;
+  margin: 5px 20px 15px 20px;
+  text-align: justify;
 }
 
 div .All {

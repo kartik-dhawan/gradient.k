@@ -9,8 +9,6 @@ const HomePage = () => {
   const board = useSelector((state) => state.utility.boardToggle);
   const browse = useSelector((state) => state.utility.browseToggle);
   const dispatch = useDispatch();
-  console.log("board is: " + board);
-  console.log("browse is: " + browse);
 
   return (
     <Container>
@@ -53,7 +51,7 @@ const Container = styled.div`
   background-color: black;
   color: white;
   width: 100%;
-  height: 100vh;
+  height: max-content;
 `;
 
 // navbar and its styled components

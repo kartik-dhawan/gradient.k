@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { showPopup } from "/Users/kartik.dhawan/react.js/gradient.k/src/redux/reducers/popupSlice.js";
 
-const Card = ({ GradData, handleColor, handleName, colorCode }) => {
+const Card = ({ GradData, handleColor, handleName }) => {
   const popupStatus = useSelector((state) => state.popup.activity);
 
   const dispatch = useDispatch();

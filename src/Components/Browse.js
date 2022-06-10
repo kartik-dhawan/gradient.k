@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import colorsData from "../assets/Colors.json";
 import GradientContainer from "./GradientContainer";
-import { ColorPalette, Color, ColorCircle } from "./BrowseComponents/Palette";
+import { ColorPalette, Color, ColorCircle } from "./Browse/Palette";
 
 const Browse = () => {
   const [filtercolor, setFilter] = useState("All");

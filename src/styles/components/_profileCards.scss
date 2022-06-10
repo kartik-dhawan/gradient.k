@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
+
+.profileCards{
+    height: max-content;
+    padding: 120px 0px;
+    background-color: rgba(175, 132, 194, 0.12);
+    
+    .profileCardsContainer{
+        padding: 15px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        @include xl{
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .profileCard{
+            height: max-content;
+            width: 25rem;
+            border: 2px solid rgba(255, 255, 255, 0.755);
+            border-radius: 17px 17px 15px 15px;
+            margin: 20px 0px;
+            @include m{
+                width: 34rem;
+            }
+            @include l{
+                width: 39rem;
+            }
+            @include xl{
+                width: 29rem;
+                margin: 20px;
+            }
+            .profileCardHeader{
+                width: 100%;
+                height: 2.2rem;
+                border-bottom: 2px solid rgba(252, 252, 252, 0.728);
+                display: flex;
+                align-items: center;
+                box-sizing: border-box;
+                padding: 5px 8px;
+                .closeDots{
+                    height: 13px;
+                    width: 13px;
+                    background-color: rgba(255, 255, 255, 0.766);
+                    margin: 2px 6px;
+                    border-radius: 50%;
+                }
+            }
+            .profileCardBody{
+                .profileCardTitle{
+                    font-family: 'Cedarville Cursive';
+                    font-size: 29px;
+                    box-sizing: border-box;
+                    margin: 10px 20px;
+                }
+                .profileCardText{
+                    font-family: 'Cedarville Cursive';
+                    font-size: 20px;
+                    margin: 5px 20px 15px 20px;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}
