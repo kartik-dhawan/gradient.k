@@ -13,6 +13,8 @@ const Browse = () => {
     document.querySelector(".colorPalette").scrollBy(-250, 0);
   };
 
+  // random blobs
+
   return (
     <>
       <ColorPalette className="colorPalette" data-testid="gn2">
@@ -23,19 +25,17 @@ const Browse = () => {
             <Color key={data.cid}>
               <div className="border">
                 <div
-                  className={`blob${Math.floor(Math.random() * 6 + 1)}`}
+                  className={`blob${Math.floor(Math.random() * 5 + 1)}`}
                 ></div>
                 <div
-                  className={`blob${Math.floor(Math.random() * 6 + 1)}`}
+                  className={`blob${Math.floor(Math.random() * 5 + 1)}`}
                 ></div>
                 <ColorCircle
                   className={data.colorType}
                   onClick={() => {
                     setFilter(data.colorType);
                   }}
-                >
-                  K
-                </ColorCircle>
+                ></ColorCircle>
               </div>
               <div className="colorTitle">{data.colorType}</div>
             </Color>

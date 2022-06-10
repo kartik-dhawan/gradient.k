@@ -16,7 +16,7 @@
         width: 10rem;
         border-radius: 50%;
         background-color: rgb(183, 125, 58);
-        color: #de9e507c;
+        color: rgba(255, 0, 0, 0.401);
         @include image-props('./assets/images/pfp.jpg');
         top: 60%;
         box-shadow: 0px 0px 125px 18px rgb(0, 0, 0);
@@ -46,3 +46,4 @@
         @include blobs("/Users/kartik.dhawan/react.js/gradient.k/src/assets/images/blob6.svg")
     }
 }
+

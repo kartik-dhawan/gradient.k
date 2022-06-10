@@ -94,7 +94,7 @@ body {
           justify-content: center;
   padding-top: 22px;
   position: relative;
-  top: 24vh;
+  top: 28vh;
   background-color: black;
   display: -ms-grid;
   display: grid;
@@ -114,6 +114,7 @@ body {
   .gradient-card-container {
     -ms-grid-columns: (270px)[auto-fill];
         grid-template-columns: repeat(auto-fill, 270px);
+    top: 29vh;
   }
 }
 
@@ -443,7 +444,7 @@ body {
   width: 10rem;
   border-radius: 50%;
   background-color: #b77d3a;
-  color: #de9e507c;
+  color: rgba(255, 0, 0, 0.401);
   background: url("./assets/images/pfp.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -514,43 +515,43 @@ body {
 }
 
 div .All {
-  background-color: #a56e6e;
+  background-color: #a56e6ea5;
 }
 
 div .Red {
-  background-color: red;
+  background-color: rgba(194, 0, 0, 0.649);
 }
 
 div .Yellow {
-  background-color: yellow;
+  background-color: rgba(219, 219, 0, 0.673);
 }
 
 div .Green {
-  background-color: green;
+  background-color: rgba(0, 128, 0, 0.736);
 }
 
 div .Pink {
-  background-color: pink;
+  background-color: rgba(255, 192, 203, 0.66);
 }
 
 div .Blue {
-  background-color: blue;
+  background-color: rgba(0, 0, 255, 0.681);
 }
 
 div .White {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.712);
 }
 
 div .Black {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.639);
 }
 
 div .Grey {
-  background-color: #454545;
+  background-color: #454545ac;
 }
 
 div .Orange {
-  background-color: orange;
+  background-color: rgba(255, 166, 0, 0.725);
 }
 
 :root {

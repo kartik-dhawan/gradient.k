@@ -1,14 +1,14 @@
 $palette-colors : (
-  "All": #a56e6e,
-  "Red": red,
-  "Yellow": yellow,
-  "Green": green,
-  "Pink": pink,
-  "Blue": blue,
-  "White": white,
-  "Black": black,
-  "Grey": #454545,
-  "Orange": orange
+  "All": #a56e6ea5,
+  "Red": rgba(194, 0, 0, 0.649),
+  "Yellow": rgba(219, 219, 0, 0.673),
+  "Green": rgba(0, 128, 0, 0.736),
+  "Pink": rgba(255, 192, 203, 0.66),
+  "Blue": rgba(0, 0, 255, 0.681),
+  "White": rgba(255, 255, 255, 0.712),
+  "Black": rgba(0, 0, 0, 0.639),
+  "Grey": #454545ac,
+  "Orange": rgba(255, 166, 0, 0.725)
 );
 
 @each $key, $val in $palette-colors{
