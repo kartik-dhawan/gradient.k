@@ -1,5 +1,5 @@
-This branch contains all the code for feature 2.0
+Select a Gradient out of thousands of prebuilt color combinations ready for you to use in your project from a delicious UI.
 
-Note: Some of the bugs found in gk1.0 are also fixed here
+Select a combination you like, look into it's hex-codes and you will find the exact css code ready for you to paste directly in your CSS component. Saves a lot of time doesn't it?
 
-Feature 2.0 includes the following :
+Click on the Github icon on top-right. Fork it, create a new branch, make changes in the Gradient.json file and create a PR which we shall merge in no time.
