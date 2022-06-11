@@ -8,7 +8,7 @@ const ProfileCards = () => {
       <div className="innerTagDesignXL">{`< Feature >`}</div>
       {profileCardData.map((card) => {
         return (
-          <>
+          <div key={Math.random()}>
             <span className="innerTagDesign">{`< Feature >`}</span>
             <Draggable handle="#handle">
               <div className="profileCard" id="handle">
@@ -25,7 +25,7 @@ const ProfileCards = () => {
               </div>
             </Draggable>
             <span className="innerTagDesign">{`< / Feature >`}</span>
-          </>
+          </div>
         );
       })}
       <div className="innerTagDesignXL">{`< / Feature >`}</div>

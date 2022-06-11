@@ -564,6 +564,7 @@ body {
   height: max-content;
   padding: 120px 0px;
   background-color: #0d0914;
+  z-index: 1000;
 }
 
 .profileCards .profileCardsContainer {
@@ -759,6 +760,191 @@ body {
 .projectHeading::first-letter {
   color: purple;
   font-size: 46px;
+}
+
+.contactPage {
+  position: absolute;
+  top: -50px;
+  width: 100%;
+  background-color: #211928;
+  height: 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: "row";
+          flex-direction: "row";
+}
+
+@media (min-width: 900px) {
+  .contactPage {
+    height: 20rem;
+  }
+}
+
+.contactPage .contactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.contactPage .contactContainer .detailsContact {
+  border-bottom: 1px solid #5d8e5db5;
+  margin: 0px 16px;
+  width: 500px;
+  height: 200px;
+  padding: 5px 35px 28px 0px;
+  text-align: center;
+}
+
+.contactPage .contactContainer .detailsContact .contactDetailsHead {
+  font-size: 30px;
+  margin: 5px 0px 20px 0px;
+  color: #b9d5b9;
+}
+
+.contactPage .contactContainer .detailsContact .contactDetailsBody {
+  font-family: 'Indie Flower';
+  font-size: 23px;
+  color: #cee1cedc;
+}
+
+.contactPage .contactContainer .detailsContact .socialIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactPage .contactContainer .detailsContact .socialIcons .instagramIcon {
+  height: 40px;
+  width: 40px;
+}
+
+.contactPage .contactContainer .detailsContact .socialIcons .linkedinIcon {
+  height: 40px;
+  width: 40px;
+}
+
+@media (min-width: 900px) {
+  .contactPage .contactContainer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .contactPage .contactContainer .detailsContact {
+    border-bottom: none;
+    border-right: 1px solid #5d8e5db5;
+    margin: 0px 16px;
+    width: 900px;
+    height: 200px;
+    padding: 5px 35px 28px 0px;
+    text-align: right;
+  }
+  .contactPage .contactContainer .detailsContact .contactDetailsHead {
+    font-size: 30px;
+    margin: 5px 0px 20px 0px;
+    color: #b9d5b9;
+  }
+  .contactPage .contactContainer .detailsContact .contactDetailsBody {
+    font-family: 'Indie Flower';
+    font-size: 23px;
+    color: #cee1cedc;
+  }
+  .contactPage .contactContainer .detailsContact .socialIcons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contactPage .contactContainer .detailsContact .socialIcons .instagramIcon {
+    height: 40px;
+    width: 40px;
+  }
+  .contactPage .contactContainer .detailsContact .socialIcons .linkedinIcon {
+    height: 40px;
+    width: 40px;
+  }
+  .contactPage .contactContainer .bitmojiContact {
+    width: 700px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .contactPage .contactContainer .bitmojiBlob {
+    top: -40px;
+    right: 12%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contactPage .contactContainer .bitmojiBlob {
+    top: -40px;
+    right: 16%;
+  }
+}
+
+.contactPage .bitmojiContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contactPage .bitmojiContact .bitmoji {
+  background: url("./assets/images/bitmoji.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  z-index: 10;
+}
+
+.contactPage .bitmojiBlob {
+  background: url("./assets/images/blob1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 390px;
+  width: 390px;
+  position: absolute;
+  right: 25%;
+  top: 0px;
+}
+
+@media (min-width: 720px) {
+  .contactPage .bitmojiBlob {
+    right: 33%;
+  }
 }
 
 div .All {
