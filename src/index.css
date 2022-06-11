@@ -160,7 +160,7 @@ body {
   bottom: 0;
   left: 0;
   z-index: 100000000;
-  background-color: #1e1e1e;
+  background-color: #18131d;
   width: 100%;
   height: 33vh;
   display: -webkit-box;
@@ -264,13 +264,19 @@ body {
   font-weight: 600;
   font-size: 17px;
   cursor: pointer;
-  height: 6vh;
-  width: 10vh;
+  height: 4rem;
+  width: 8rem;
+  background-color: #211928;
+  border-bottom: 1px solid #5543644b;
+  border-right: 1px solid #5543644b;
+  border-left: 1px solid #5543644b;
 }
 
 .popup .popup-buttons #copy-btn, .popup .popup-buttons #add-btn {
-  width: 6vh;
-  border: 1px solid #454545;
+  width: 4rem;
+  border-bottom: 1px solid #5543644b;
+  border-right: 1px solid #5543644b;
+  border-left: 1px solid #5543644b;
 }
 
 .popup .close-bar {
@@ -327,7 +333,7 @@ body {
   position: absolute;
   left: 0;
   z-index: 100000000;
-  background-color: #1e1e1e;
+  background-color: #211928;
   width: 100%;
   height: 30vh;
   display: -webkit-box;
@@ -785,7 +791,7 @@ body {
 
 @media (min-width: 900px) {
   .contactPage {
-    height: 20rem;
+    height: 25rem;
   }
 }
 
@@ -800,6 +806,12 @@ body {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contactPage .contactContainer .detailsContact {
@@ -807,8 +819,16 @@ body {
   margin: 0px 16px;
   width: 500px;
   height: 200px;
-  padding: 5px 35px 28px 0px;
+  padding: 5px 0px 28px 0px;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  place-content: center;
 }
 
 .contactPage .contactContainer .detailsContact .contactDetailsHead {
@@ -838,11 +858,27 @@ body {
 .contactPage .contactContainer .detailsContact .socialIcons .instagramIcon {
   height: 40px;
   width: 40px;
+  cursor: pointer;
+  -webkit-transition: 200ms all ease;
+  transition: 200ms all ease;
+}
+
+.contactPage .contactContainer .detailsContact .socialIcons .instagramIcon:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .contactPage .contactContainer .detailsContact .socialIcons .linkedinIcon {
   height: 40px;
   width: 40px;
+  cursor: pointer;
+  -webkit-transition: 200ms all ease;
+  transition: 200ms all ease;
+}
+
+.contactPage .contactContainer .detailsContact .socialIcons .linkedinIcon:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @media (min-width: 900px) {
@@ -855,40 +891,22 @@ body {
   .contactPage .contactContainer .detailsContact {
     border-bottom: none;
     border-right: 1px solid #5d8e5db5;
-    margin: 0px 16px;
     width: 900px;
     height: 200px;
-    padding: 5px 35px 28px 0px;
     text-align: right;
   }
   .contactPage .contactContainer .detailsContact .contactDetailsHead {
-    font-size: 30px;
-    margin: 5px 0px 20px 0px;
-    color: #b9d5b9;
+    margin: 5px 30px 20px 0px;
   }
   .contactPage .contactContainer .detailsContact .contactDetailsBody {
-    font-family: 'Indie Flower';
-    font-size: 23px;
-    color: #cee1cedc;
+    margin-right: 30px;
   }
   .contactPage .contactContainer .detailsContact .socialIcons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .contactPage .contactContainer .detailsContact .socialIcons .instagramIcon {
-    height: 40px;
-    width: 40px;
-  }
-  .contactPage .contactContainer .detailsContact .socialIcons .linkedinIcon {
-    height: 40px;
-    width: 40px;
+    margin-right: 30px;
+    margin-top: 5px;
   }
   .contactPage .contactContainer .bitmojiContact {
     width: 700px;
@@ -898,7 +916,7 @@ body {
   }
   .contactPage .contactContainer .bitmojiBlob {
     top: -40px;
-    right: 12%;
+    right: 9%;
   }
 }
 
@@ -937,7 +955,7 @@ body {
   height: 390px;
   width: 390px;
   position: absolute;
-  right: 25%;
+  right: 20%;
   top: 0px;
 }
 
