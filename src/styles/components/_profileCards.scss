@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Indie+Flower&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
 
 .profileCards{
     height: max-content;
     padding: 120px 0px;
     background-color: rgb(13, 9, 20);
     .profileCardsContainer{
-
         padding: 15px 15px;
         display: flex;
         flex-direction: column;
@@ -54,6 +53,7 @@
             border: 2px solid rgba(255, 255, 255, 0.755);
             border-radius: 17px 17px 15px 15px;
             margin: 20px 0px;
+            cursor: grab;
             @include m{
                 width: 34rem;
             }
@@ -63,6 +63,9 @@
             @include xl{
                 width: 29rem;
                 margin: 20px;
+            }
+            @include xxl{
+                width: 36rem;
             }
             .profileCardHeader{
                 width: 100%;
@@ -79,21 +82,46 @@
                     margin: 2px 6px;
                     border-radius: 50%;
                 }
+                @keyframes move {
+                    from{
+                        color: rgba(255, 255, 255, 0.375);
+                        transform: translateX(12px);
+                    }
+                    to{
+                        color: rgba(255, 255, 255, 0.895);
+                        transform: translateX(24px);
+                    }
+                }
+                .grabToDrag{
+                    font-family: 'Indie Flower';
+                    transition: all ease;
+                    animation: move 2s infinite;
+                }
             }
             .profileCardBody{
                 .profileCardTitle{
                     font-family: 'Cedarville Cursive';
+                    font-family: 'Indie Flower';
+                    color: rgba(255, 255, 255, 0.91);
                     font-size: 29px;
                     box-sizing: border-box;
                     margin: 10px 20px;
                 }
                 .profileCardText{
-                    font-family: 'Cedarville Cursive';
+                    font-family: 'Indie Flower';
+                    color: rgba(255, 255, 255, 0.78);
                     font-size: 20px;
                     margin: 5px 20px 15px 20px;
                     text-align: justify;
                 }
             }
         }
+    }
+}
+
+.projectHeading{
+    &::first-letter{
+        color: purple;
+        font-size: 46px;
     }
 }

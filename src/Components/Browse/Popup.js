@@ -38,7 +38,12 @@ const Popup = ({ colorCode, gradientName }) => {
         </button>
         <button id="add-btn">+</button>
       </div>
-      <div className="close-bar"></div>
+      <div
+        className="close-bar"
+        onClick={() => {
+          dispatch(removePopup(popupStatus));
+        }}
+      ></div>
       {act === true ? <CopyDialog handleDialog={handleDialog} /> : ""}
     </div>
   );

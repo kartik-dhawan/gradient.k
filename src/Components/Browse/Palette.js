@@ -5,7 +5,7 @@ export const ColorPalette = styled.nav`
   width: 100%;
   top: 7.6rem;
   z-index: 10000;
-  height: 7rem;
+  height: 7.2rem;
   @media (min-width: 768px) {
     top: 7.4rem;
     height: 8rem;

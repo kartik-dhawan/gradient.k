@@ -14,7 +14,7 @@ const HomePage = () => {
     <Container>
       <NavBar>
         <HamBurgerMenu>III</HamBurgerMenu>
-        <Heading>Gradients.k</Heading>
+        <Heading className="projectHeading">Gradients.k</Heading>
         <Login>K</Login>
       </NavBar>
       <HomeSection>
@@ -67,7 +67,7 @@ const NavBar = styled.header`
   top: 0px;
   left: 0%;
   @media (min-width: 768px) {
-    height: 6.3vh;
+    height: 4rem;
   }
 `;
 
@@ -146,7 +146,7 @@ const BrowseContainer = styled.aside`
   background-color: #454545;
   display: flex;
   flex-direction: column;
-  min-height: 90vh;
+  min-height: 40rem;
 `;
 
 export default HomePage;

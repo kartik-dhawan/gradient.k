@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Indie+Flower&family=Poppins:wght@100;200;300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Indie+Flower&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap");
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
 
 .active {
@@ -160,7 +162,7 @@ body {
   z-index: 100000000;
   background-color: #1e1e1e;
   width: 100%;
-  height: 25vh;
+  height: 33vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -192,8 +194,8 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    max-width: 80%;
-    height: 22vh;
+    max-width: 95%;
+    height: 31vh;
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
@@ -202,13 +204,13 @@ body {
 
 @media (min-width: 900px) {
   .popup {
-    width: 65%;
+    width: 75%;
   }
 }
 
 @media (min-width: 1200px) {
   .popup {
-    width: 50%;
+    width: 70%;
   }
 }
 
@@ -323,12 +325,11 @@ body {
 .copy-dialog-container {
   background-color: red;
   position: absolute;
-  bottom: 0;
   left: 0;
   z-index: 100000000;
   background-color: #1e1e1e;
   width: 100%;
-  height: 25vh;
+  height: 30vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -345,12 +346,18 @@ body {
   border-radius: 60px 60px 0px 0px;
 }
 
+@media (min-width: 720px) {
+  .copy-dialog-container {
+    height: 28vh;
+  }
+}
+
 .copy-dialog-container .copy-dialog-code {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  padding: 20px 10px;
-  margin: 6px 15px;
+  padding: 20px 9px;
+  margin: 13px 30px;
   background-color: #454545a8;
   border-radius: 10px;
 }
@@ -645,6 +652,8 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.755);
   border-radius: 17px 17px 15px 15px;
   margin: 20px 0px;
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 
 @media (min-width: 720px) {
@@ -663,6 +672,12 @@ body {
   .profileCards .profileCardsContainer .profileCard {
     width: 29rem;
     margin: 20px;
+  }
+}
+
+@media (min-width: 1380px) {
+  .profileCards .profileCardsContainer .profileCard {
+    width: 36rem;
   }
 }
 
@@ -689,8 +704,44 @@ body {
   border-radius: 50%;
 }
 
+@-webkit-keyframes move {
+  from {
+    color: rgba(255, 255, 255, 0.375);
+    -webkit-transform: translateX(12px);
+            transform: translateX(12px);
+  }
+  to {
+    color: rgba(255, 255, 255, 0.895);
+    -webkit-transform: translateX(24px);
+            transform: translateX(24px);
+  }
+}
+
+@keyframes move {
+  from {
+    color: rgba(255, 255, 255, 0.375);
+    -webkit-transform: translateX(12px);
+            transform: translateX(12px);
+  }
+  to {
+    color: rgba(255, 255, 255, 0.895);
+    -webkit-transform: translateX(24px);
+            transform: translateX(24px);
+  }
+}
+
+.profileCards .profileCardsContainer .profileCard .profileCardHeader .grabToDrag {
+  font-family: 'Indie Flower';
+  -webkit-transition: all ease;
+  transition: all ease;
+  -webkit-animation: move 2s infinite;
+          animation: move 2s infinite;
+}
+
 .profileCards .profileCardsContainer .profileCard .profileCardBody .profileCardTitle {
   font-family: 'Cedarville Cursive';
+  font-family: 'Indie Flower';
+  color: rgba(255, 255, 255, 0.91);
   font-size: 29px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -698,10 +749,16 @@ body {
 }
 
 .profileCards .profileCardsContainer .profileCard .profileCardBody .profileCardText {
-  font-family: 'Cedarville Cursive';
+  font-family: 'Indie Flower';
+  color: rgba(255, 255, 255, 0.78);
   font-size: 20px;
   margin: 5px 20px 15px 20px;
   text-align: justify;
+}
+
+.projectHeading::first-letter {
+  color: purple;
+  font-size: 46px;
 }
 
 div .All {
