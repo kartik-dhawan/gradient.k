@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <Container>
       <NavBar>
-        <HamBurgerMenu>III</HamBurgerMenu>
+        <HamBurgerMenu>K</HamBurgerMenu>
         <Heading className="projectHeading">Gradients.k</Heading>
         <Login>
           <a href="https://github.com/kartikd07/gradient.k" target="_blank">
@@ -84,12 +84,17 @@ const NavBar = styled.header`
 `;
 
 const HamBurgerMenu = styled.span`
-  transform: rotate(90deg);
-  margin: 0px 15px;
+  /* transform: rotate(90deg); */
+  margin: 10px;
+  padding: 2px 14px;
+  transform: scale(0.87);
+  border-bottom: 1.2px solid white;
+  border-right: 1.2px solid white;
+  border-radius: 40%;
   font-size: 25px;
   cursor: pointer;
   @media (min-width: 768px) {
-    font-size: 30px;
+    visibility: hidden;
   }
 `;
 

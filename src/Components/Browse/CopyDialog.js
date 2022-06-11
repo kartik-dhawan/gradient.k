@@ -10,7 +10,7 @@ const CopyDialog = ({ handleDialog }) => {
 
   setTimeout(() => {
     handleDialog(true);
-  }, 4000);
+  }, 10000);
 
   const handleCopied = () => {
     setCopied(true);
@@ -18,7 +18,7 @@ const CopyDialog = ({ handleDialog }) => {
 
   return (
     <div className="copy-dialog-container">
-      <div className="copy-dialog-timeout">Closing the code popup in 5s</div>
+      <div className="copy-dialog-timeout">Closing the code popup in 10s</div>
       <div
         className="copy-dialog-code"
         onClick={() => {
