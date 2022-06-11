@@ -1,0 +1,122 @@
+.contactPage{
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    background-color: rgb(33, 25, 40);
+    height: 40rem;
+    @include l{
+        height: 25rem;  
+    }
+    @include center-flex('row');
+    .contactContainer{
+        display: flex;
+        flex-direction: column-reverse ;
+        width: max-content;
+        align-items: center;
+        justify-content: center;
+        .detailsContact{
+            border-bottom: 1px solid #5d8e5db5;
+            margin: 0px 16px;
+            width: 500px;
+            height: 200px;
+            padding: 5px 0px 28px 0px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            place-content: center;
+            .contactDetailsHead{
+                font-size: 30px;
+                margin: 5px 0px 20px 0px;
+                color: #b9d5b9;
+            }
+            .contactDetailsBody{
+                font-family: 'Indie Flower';
+                font-size: 23px;
+                color: #cee1cedc;
+            }
+            .socialIcons{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .instagramIcon{
+                    height: 40px;
+                    width: 40px;
+                    cursor: pointer;
+                    transition: 200ms all ease;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+                }
+                .linkedinIcon{
+                    height: 40px;
+                    width: 40px;
+                    cursor: pointer;
+                    transition: 200ms all ease;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+        @include l{
+            flex-direction: row ;
+            .detailsContact{
+                border-bottom: none;
+                border-right: 1px solid #5d8e5db5;
+                width: 900px;
+                height: 200px;
+                text-align: right;
+                .contactDetailsHead{
+                    margin: 5px 30px 20px 0px;
+                }
+                .contactDetailsBody{
+                    margin-right: 30px;
+                }
+                .socialIcons{
+                    justify-content: flex-end;
+                    margin-right: 30px;
+                    margin-top: 5px;
+                }
+            }
+            .bitmojiContact{
+                width: 700px;
+                justify-content: flex-start;
+            }
+            .bitmojiBlob{
+                    top: -40px;
+                    right: 9%;
+            }
+        }
+        @include xl{
+            .bitmojiBlob{
+                top: -40px;
+                right: 16%;  
+            }
+        }
+    }
+
+
+    .bitmojiContact{
+        display: flex;
+        width: 500px;
+        justify-content: center;
+        .bitmoji{
+            @include image-props('./assets/images/bitmoji.png');
+            height: 250px;
+            width: 250px;
+            z-index: 10;
+        }
+    }
+    .bitmojiBlob{
+        @include image-props('./assets/images/blob1.svg');
+        height: 390px;
+        width: 390px;
+        position: absolute;
+        right: 20%;
+        top: 0px;
+        @include m{
+            right: 33%;
+        }
+
+    }
+}

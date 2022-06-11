@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "../detailsCard.css";
 import GradData from "../assets/Gradient.json";
-import Card from "./BrowseComponents/Card";
-import Popup from "./BrowseComponents/Popup";
+import Card from "./Browse/Card";
+import Popup from "./Browse/Popup";
 import { useSelector } from "react-redux";
 
 const GradientContainer = ({ filtercolor }) => {

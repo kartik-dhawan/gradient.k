@@ -1,0 +1,14 @@
+[
+    {
+        "cardTitle": "Pick a color combination",
+        "cardBody": "Select a Gradient out of thousands of prebuilt color combinations ready for you to use in your project from a delicious UI."
+    },
+    {
+        "cardTitle": "Copy the CSS right into your project",
+        "cardBody": "Select a combination you like, look into it's hex-codes and you will find the exact css code ready for you to paste directly in your CSS component. Saves a lot of time doesn't it?"
+    },
+    {
+        "cardTitle": "Want to add more gradients of your choice?",
+        "cardBody": "Click on the Github icon on top-right. Fork it, create a new branch, make changes in the Gradient.json file and create a PR which we shall merge in no time."
+    }
+]

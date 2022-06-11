@@ -3,17 +3,21 @@ import styled from "styled-components";
 export const ColorPalette = styled.nav`
   position: fixed;
   width: 100%;
-  top: 12vh;
-  left: 0;
+  top: 7.6rem;
   z-index: 10000;
-  z-index: 10000;
+  height: 7.2rem;
   @media (min-width: 768px) {
-    top: 13vh;
+    top: 7.4rem;
+    height: 8rem;
+  }
+  @media (min-width: 938px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   padding: 2px 20px;
-  background-color: black;
+  background-color: rgb(16, 11, 23);
   display: flex;
-  height: fit-content;
   padding: 20px 15px;
   justify-content: start;
   align-items: center;
@@ -39,9 +43,15 @@ export const ColorPalette = styled.nav`
   }
   > :nth-child(1) {
     left: 0;
+    @media (min-width: 930px) {
+      display: none;
+    }
   }
   > :nth-child(2) {
     right: 0;
+    @media (min-width: 930px) {
+      display: none;
+    }
   }
   > :nth-child(1)::before {
     content: "";
@@ -49,7 +59,7 @@ export const ColorPalette = styled.nav`
     height: 12vh;
     width: 43px;
     left: -3px;
-    background: linear-gradient(to right, black, #45454500);
+    background: linear-gradient(to right, rgb(13, 9, 20), #45454500);
     z-index: -1;
     @media (min-width: 768px) {
       height: 13vh;
@@ -61,7 +71,7 @@ export const ColorPalette = styled.nav`
     height: 12vh;
     width: 43px;
     right: -3px;
-    background: linear-gradient(to left, black, #45454500);
+    background: linear-gradient(to left, rgb(13, 9, 20), #45454500);
     z-index: -1;
   }
 `;
@@ -70,7 +80,7 @@ export const Color = styled.div`
   display: grid;
   grid-template-rows: 4fr 1fr;
   width: 60px;
-  height: 80px;
+  height: 120px;
   justify-content: center;
   .colorTitle {
     color: wheat;
@@ -80,9 +90,9 @@ export const Color = styled.div`
   }
   margin: 0px 15px;
   > .border {
-    border: 1px solid white;
-    border-radius: 50%;
     padding: 2px;
+    height: 100px;
+    width: 100px;
   }
 `;
 
@@ -92,7 +102,8 @@ export const ColorCircle = styled.div`
   display: flex;
   align-items: center;
   border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.201);
   justify-content: center;
   background-color: red;
-  cursor: default;
+  cursor: pointer;
 `;

@@ -1,18 +1,17 @@
 import HomePage from "./Components/HomePage";
-import LoginPage from "./Components/LoginPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Browse from "./Components/Browse";
-import Board from "./Components/Board";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Routes>
-          <Route path="/" element={<LoginPage />} />
-          <Route path="/home" element={<HomePage />} />
-        </Routes>
-      </Router>
+      <ParallaxProvider>
+        <Router>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+          </Routes>
+        </Router>
+      </ParallaxProvider>
     </div>
   );
 }

@@ -9,7 +9,6 @@ const Popup = ({ colorCode, gradientName }) => {
   const dispatch = useDispatch();
 
   const [act, setAct] = useState(false);
-  console.log(act);
 
   const handleDialog = (act) => {
     setAct(!act);
@@ -25,7 +24,6 @@ const Popup = ({ colorCode, gradientName }) => {
         <button
           id="copy-btn"
           onClick={() => {
-            console.log("Copied");
             dispatch(copyToClipboard(colorCode));
             handleDialog();
           }}
@@ -40,7 +38,12 @@ const Popup = ({ colorCode, gradientName }) => {
         </button>
         <button id="add-btn">+</button>
       </div>
-      <div className="close-bar"></div>
+      <div
+        className="close-bar"
+        onClick={() => {
+          dispatch(removePopup(popupStatus));
+        }}
+      ></div>
       {act === true ? <CopyDialog handleDialog={handleDialog} /> : ""}
     </div>
   );

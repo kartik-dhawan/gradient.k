@@ -16,6 +16,21 @@
     cursor: pointer;
 }
 
+@mixin image-props($url){
+    background: url('#{$url}');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@mixin blobs($url){
+    background-image: url($url);
+    z-index: -1;
+    height: 140px;
+    width: 140px;
+    position: absolute;
+}
+
 .active{
     border-bottom: 1.6px solid white;
 }
